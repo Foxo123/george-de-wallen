@@ -1,32 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-ABOUT US
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>About us</title>
+  </head>
+  <body>
 
-Our story began in 1969 when the Founder of George Restaurants & Co. had an idea for amazing food served with a smile.
-He was tired of going to restaurants that didn't acknowledge him. So he set out to create one with top-notch service for anyone.
-In 1973, he had already set up 13 restaurants under this motto and it was a big success! 6 years later he had published 
-this formula for franchise-owners alike. Hence our story began in de Wallen in 1989 and we have been serving happy customers ever since.
+  <section id="about-us" class="">
 
-OUR MISSION
+    <div class = "container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="section-title"><br>
+            <div class="section-subtitle">About Us</div>
+              <h2 class="section-main-title">George De Wallen</h2>
+          </div>
+          <div class="about-item">
+            <p>
+              <strong>How the restaurant began.</strong>
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at aliquid similique expedita sequi adipisci eligendi exercitationem. Consequuntur, ut quod!
+            </p>
+            <p>
+              <strong>What the mission is.</strong>
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorum dolorem hic nobis, velit temporibus odit quam modi at alias sapiente neque iste odio omnis non similique voluptatem explicabo! Quasi!
+            </p>
+            <p>
+              <strong>The recent success.</strong>
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quidem error pariatur sit esse ut commodi molestias sequi, vitae et.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+  </section>
+    
 
-We strive towards excellence in food and service, to create the fond memories our customers treasure. 
-Share a celebration or anniversary with your family, friends, and loved ones.
-Our chefs are some of the best on the market and we make sure to price our products competitively. As George has intended it to.
-Our patented formula makes for a great night out, no matter the circumstance!
+    
 
-
-
-From that local neighbourhood spot where everybody knows your name to a light-filled, eclectic restaurant with view
- on the Amstel river: George has it all.
-
-Serving you iconic dishes and timeless classics with New York, Paris, the Côte d'Azur and Hong Kong in mind,
- along with local ingredients, freshly roasted coffee and signature cocktails, our restaurants are open all day,
-  every day –  so come join us for an early morning espresso, a lazy Sunday brunch or an intimate dinner with friends
-   in a relaxed, elegant atmosphere.
-
-A FEAST FOR YOUR SENSES
-Most of our restaurants are designed by Amsterdam based Architecture & Design studio Framework, 
-who signed for our bespoke interiors and sophisticated yet intimate ambiance,
-featuring typical George elements like metro tiles, lush leather couches, brass lighting, and marble bars.
-With each location having its own charm, your visit to George quite literally is a feast for your eyes and taste buds.
-
-Most of our locations have stunning, sunny terraces and are open all day, every day for breakfast, lunch and dinner.
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
