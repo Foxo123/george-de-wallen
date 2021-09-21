@@ -5,3 +5,8 @@
   text-align: center;
   font-weight: bolder;
 }
+
+.about-item {
+  border-right-style: solid;
+  border-left-style: solid;
+}
