@@ -9,4 +9,11 @@
 .about-item {
   border-right-style: solid;
   border-left-style: solid;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+
+
