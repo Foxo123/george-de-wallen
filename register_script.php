@@ -17,6 +17,7 @@
       // De functie mk_password_hash_from_microtime() maakt een password hash,
       // haalt de tijd en datum op op basis van de php-functie microtime() 
       // en geeft dit terug in $array
+      
       $array = mk_password_hash_from_microtime();      
       
       $sql = "INSERT INTO `password` (`email`,
