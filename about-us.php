@@ -14,45 +14,44 @@
 
 <body>
 
-  <div class="row-about-us-and-carousel">
-    <div class="col-6">
-      <section id="about-us" class="about-us-text">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6">
-              <div class="section-title"><br>
-                <div class="section-subtitle">About Us</div>
-                <h2 class="section-main-title">George De Wallen</h2>
-              </div>
-              <div class="about-item">
-                <p>
-                  <strong>How restaurant george began.</strong>
-                </p>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at aliquid similique expedita sequi adipisci eligendi exercitationem. Consequuntur, ut quod!
-                </p>
-                <p>
-                  <strong>What is our mission.</strong>
-                </p>
-                <p>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorum dolorem hic nobis, velit temporibus odit quam modi at alias sapiente neque iste odio omnis non similique voluptatem explicabo! Quasi!
-                </p>
-                <p>
-                  <strong>Our recent success.</strong>
-                </p>
-                <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quidem error pariatur sit esse ut commodi molestias sequi, vitae et.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center" >
+        <h1>About Us</h1>
+      </div>
     </div>
-    <div class="col-6">
-      <section id="carrousel" class="about-us-carrousel">
 
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="row">
+      <div class="col-6" id="test1">
+
+        <div class="section-title"><br>
+          <!-- <div class="section-subtitle">About Us</div> -->
+          <h2 class="section-main-title text-center">George De Wallen</h2>
+        </div>
+        <div class="about-item">
+          <p>
+            <strong>How restaurant george began.</strong>
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at aliquid similique expedita sequi adipisci eligendi exercitationem. Consequuntur, ut quod!
+          </p>
+          <p>
+            <strong>What is our mission.</strong>
+          </p>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorum dolorem hic nobis, velit temporibus odit quam modi at alias sapiente neque iste odio omnis non similique voluptatem explicabo! Quasi!
+          </p>
+          <p>
+            <strong>Our recent success.</strong>
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quidem error pariatur sit esse ut commodi molestias sequi, vitae et.
+          </p>
+        </div>
+
+      </div>
+      <div class="col-6" id="test2">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" >
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -78,9 +77,13 @@
             <span class="sr-only">Next</span>
           </a>
         </div>
-      </section>
+      </div>
     </div>
+
+
   </div>
+
+  
 
   <section id="medewerkers">
     <hr class="featurette-divider">

@@ -1,5 +1,5 @@
 #footer {
-  min-height: 4em;
+  min-height: 1em;
   background-color: yellowgreen;
   color: white;
   text-align: center;
@@ -7,12 +7,15 @@
 }
 
 .about-item {
-  border-right-style: solid;
-  border-left-style: solid;
   text-align: center;
   padding-top: 25px;
   padding-left: 10px;
-  padding-right: 10px;
+}
+
+#test2 {
+  border-left: 2px solid black;
+  margin-top: 100px;
+  position: relative;
 }
 
 
