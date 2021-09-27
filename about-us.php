@@ -16,8 +16,9 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-12 text-center" >
+      <div class="col-12 text-center">
         <h1>About Us</h1>
+        <h2>George De Wallen</h2>
       </div>
     </div>
 
@@ -25,8 +26,6 @@
       <div class="col-6" id="test1">
 
         <div class="section-title"><br>
-          <!-- <div class="section-subtitle">About Us</div> -->
-          <h2 class="section-main-title text-center">George De Wallen</h2>
         </div>
         <div class="about-item">
           <p>
@@ -51,7 +50,7 @@
 
       </div>
       <div class="col-6" id="test2">
-        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" >
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -83,59 +82,56 @@
 
   </div>
 
-  
 
-  <section id="medewerkers">
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">NAAM MEDEWERKER</h2>
-        <p class="lead">FUNCTIE</p>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="./img/mensen/owner.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Tiamo Zondervan</h3>
+            <h4 class="title">Eigenaar</h4>
+          </div>
+        </div>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="./img/mensen/co-owner.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Roline Boogerd</h3>
+            <h4 class="title">Mede-Eigenaar</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="./img/mensen/chef-kok.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Bart Hermsen</h3>
+            <h4 class="title">Chef-Kok</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="./img/mensen/hoofd-administratie.jpg">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Raj Snijders</h3>
+            <h4 class="title">Hoofd Administratie</h4>
+          </div>
+        </div>
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">NAAM MEDEWERKER</span></h2>
-        <p class="lead">FUNCTIE</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">NAAM MEDEWERKER</h2>
-        <p class="lead">FUNCTIE</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <title>Placeholder</title>
-          <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-        </svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-  </section>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
