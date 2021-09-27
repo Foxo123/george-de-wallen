@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+  
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
@@ -29,7 +29,7 @@
         </div>
         <div class="about-item">
           <p>
-            <strong>How restaurant george began.</strong>
+            <strong>Hoe het restaurant begonnen is:</strong>
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at aliquid similique expedita sequi adipisci eligendi exercitationem. Consequuntur, ut quod!
@@ -78,11 +78,7 @@
         </div>
       </div>
     </div>
-
-
   </div>
-
-
 
   <div class="container">
     <div class="row">
