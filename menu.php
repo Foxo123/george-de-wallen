@@ -58,11 +58,51 @@
 
 
 
-<blockquote class="otro-blockquote">
+<blockquote class="otro-blockquote" style="padding-top: 50px;">
   Creativity is just connecting things. When you ask creative people how they did something, they feel a little guilty because they didn't really do it, they just saw something. It seemed obvious to them after a while. That's because they were able to connect experiences they've had and synthesize new things.
   <span>Steve Jobs</span>
 </blockquote>
 
+
+<h1> <center style="text-decoration: underline; padding-top: 50px; font-family:Apple Chancery; font-size:50px;">Specialties!</center> </h1>
+
+
+<div class="row" style="padding-top: 175px;">
+    <div class="col-6" style="border-right-style: solid;">
+        <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px;">Speciale Formaggio!</center>
+
+        
+        <center style="font-family:Georgia, sans-serif; font-size: 25px; padding-top: 25px;">Chick'n Tartaire speciale</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">George´s Corn bread with Crème fraîche</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Tender Beef with Garlic and Tomato sauce</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Spareribs with extra Honey and Mustard</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Fish soup with 4 diffent fish, all caught in Amsterdam</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Rice with Onions and lamb dipped in Honey</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Hen meat with sliced Potatoes and Cucumber</center>
+		<center style="font-family:Georgia, sans-serif; font-size: 25px;">Tart chicken meat with rosato´s and chips</center>
+</div>
+    <div class="col-6">
+        <img src="./img/rechts1.jpg" class="w-75 h-100" style=" width: 40%;  margin: auto; width: 50%;border: 3px solid black;padding: 10px;">
+    </div>
+</div>
+     <div class="row">
+     <div class="col-6" style="border-right-style: solid; padding-left: 175px; padding-top: 50px;">	
+     <img src="./img/specialties2.jpg" class= "w-100 h-80" style="width: 100%; margin-right: auto; width: 50%;border: 3px solid black;padding: 10px;">
+</div>
+    
+    <div class="col-6" style="padding-top: 50px;">
+        <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px;">Our normale grande!</center>
+
+        <center style="font-family:Georgia, sans-serif; font-size: 25px; padding-top: 25px;">Chick'n Tartaire speciale</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">George´s Corn bread with Crème fraîche</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Tender Beef with Garlic and Tomato sauce</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Spareribs with extra Honey and Mustard</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Fish soup with 4 diffent fish, all caught in Amsterdam</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Rice with Onions and lamb dipped in Honey</center>
+        <center style="font-family:Georgia, sans-serif; font-size: 25px;">Hen meat with sliced Potatoes and Cucumber</center>
+		<center style="font-family:Georgia, sans-serif; font-size: 25px;">Tart chicken meat with rosato´s and chips</center>
+    </div>
+</div>
 
 
 
