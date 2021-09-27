@@ -2,13 +2,13 @@
 
 
 <div class="row mt-3">
-    <div class="col-3" id="booking-form">
+    <div class="col-6" id="booking-form">
         <h1>GET TOGETHER
             WITH GEORGE</h1>
         <p>Over the years, we've hosted a variety of events. From private birthday parties, PR-events and exclusive product launches, to corporate events, luncheons and walking dinners for large groups. So whether you want to celebrate in style or have a business meeting that is anything but ordinary,
             George will offer you just that – and more.
     </div>
-    <div class="col-3" id="booking-form">
+    <div class="col-6" id="booking-form">
         <p>Our venues come in various sizes, each with their own style. With great food & beverages options, top-notch facilities and an amazing crew that is highly experienced.f</p>
         <div class="card" style="width: 18rem; margin: auto;">
             <div class="card-body">
@@ -18,7 +18,8 @@
             </div>
         </div>
     </div>
-    <div class="col-6" id="booking-form" style="margin: auto; padding-bottom: 5px;">
+</div>
+    <div class="col-12" id="booking-form" style="margin: auto; padding-bottom: 5px;">
         <img src="./img/dewallen.jpg" alt="foto de wallen" class="w-100 h-75">
     </div>
 </div>
