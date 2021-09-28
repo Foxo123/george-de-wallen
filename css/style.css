@@ -6,6 +6,11 @@
   font-weight: bolder;
 }
 
+
+
+
+
+
 .blockquote {
     padding: 60px 80px 40px;
     position: relative;
@@ -25,7 +30,8 @@
    vertical-align: middle;
   font-size: 180px;
  }*/
-
+ 
+ /*dit is stukje css voor de quote*/
 .blockquote:before {
   position: absolute;
   font-family: 'FontAwesome';
