@@ -85,10 +85,10 @@
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="./img/mensen/owner.jpg">
+            <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Tiamo Zondervan</h3>
+            <h3 class="name">Luuc Stigter</h3>
             <h4 class="title">Eigenaar</h4>
           </div>
         </div>
@@ -96,10 +96,10 @@
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="./img/mensen/co-owner.jpg">
+            <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Roline Boogerd</h3>
+            <h3 class="name">Mahircan Alkan</h3>
             <h4 class="title">Mede-Eigenaar</h4>
           </div>
         </div>
@@ -107,10 +107,10 @@
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="./img/mensen/chef-kok.jpg">
+            <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Bart Hermsen</h3>
+            <h3 class="name">Tjardo de Heer</h3>
             <h4 class="title">Chef-Kok</h4>
           </div>
         </div>
@@ -118,11 +118,22 @@
       <div class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="our-team">
           <div class="picture">
-            <img class="img-fluid" src="./img/mensen/hoofd-administratie.jpg">
+            <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Raj Snijders</h3>
+            <h3 class="name">Samie Senel</h3>
             <h4 class="title">Hoofd Administratie</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="our-team">
+          <div class="picture">
+            <img class="img-fluid" src="./img/mensen/card.png">
+          </div>
+          <div class="team-content">
+            <h3 class="name">Tom Lengkeek</h3>
+            <h4 class="title">Website Developer</h4>
           </div>
         </div>
       </div>
