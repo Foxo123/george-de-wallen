@@ -35,13 +35,13 @@
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum at aliquid similique expedita sequi adipisci eligendi exercitationem. Consequuntur, ut quod!
           </p>
           <p>
-            <strong>What is our mission.</strong>
+            <strong>Wat is onze missie:</strong>
           </p>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi dolorum dolorem hic nobis, velit temporibus odit quam modi at alias sapiente neque iste odio omnis non similique voluptatem explicabo! Quasi!
           </p>
           <p>
-            <strong>Our recent success.</strong>
+            <strong>onze recente succes:</strong>
           </p>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum quidem error pariatur sit esse ut commodi molestias sequi, vitae et.
