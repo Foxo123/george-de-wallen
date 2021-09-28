@@ -20,9 +20,10 @@
     <div class="container text-center">
         <!-- col 1 -->
         <div class="row" id="table">
-        <div class="col-4">
-        <img src="./images/coffee.png" alt="" class="">
+        <div class="col-4 float-left" id="pic1">
+        <img src="./images/coffee.png" alt="" class="float-left">
             </div>
+            <style>#pic1 {width:auto;}</style>
             <div class="col-4">
             <h2>Contact Us<h2><br>
             <h4>If you want to get in contact with us 
