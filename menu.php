@@ -11,16 +11,22 @@
 <link rel="stylesheet" href="./css/style.css">
 <div class="container">
   <div class="box" id="momi2">
-  <a href="#menu"><img src="./img/Kadefoto1.jpg"></a>
-    <span>Menu</span>
+  	<img src="./img/Kadefoto1.jpg">
+	  	<a href="#menu"> 
+		   <span>Menu</span>
+		</a>
   </div>
   <div class="box" id="momi1">
-  <a href="specialties"><img src="./img/Specialties1.jpg"></a>
-    <span>Specialties</span>
+ 	<img src="./img/Specialties1.jpg">
+	 <a href="#special"> 
+		   <span>Specialties</span>
+		</a>
   </div>
   <div class="box" id="momi3">
     <img src="./img/Health1.jpg">
-    <span>Allergy info!</span>
+	<a href="#allergy"> 
+		   <span>Allergy info</span>
+		</a>
   </div>
 </div>
 
@@ -76,7 +82,7 @@
 <h1> <center style="text-decoration: underline; padding-top: 50px; font-family:Apple Chancery; font-size:50px;">Specialties!</center> </h1>
 
 
-<div class="row" style="padding-top: 150px;">
+<div class="row" style="padding-top: 150px;" id="special">
     <div class="col-6" style="border-right-style: solid;">
         <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Speciale Formaggio!</center>
 
@@ -126,7 +132,7 @@
 
 
 
-<div class="afstand" style="margin: 0px 100px;">
+<div class="afstand" style="margin: 0px 100px;" id="allergy">
 <div class="jumbotron"  id="jumbo1" style="text-align: center; font-family:Arial; padding-top: 200px;">
   <h1 class="display-4" >Food info/Allergies!</h1>
   <p class="lead"></p>
