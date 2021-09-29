@@ -1,10 +1,10 @@
 <?php
- if (!(isset($_GET["content"]) && isset($_GET["em"]) && isset($_GET["pwh"]))){
+if (!(isset($_GET["content"]) && isset($_GET["em"]) && isset($_GET["pwh"]))) {
   header("Location: ./index.php?content=message&alert=hacker-alert");
- }
+}
 ?>
 
-<div class="container mt-5">
+<div class="container my-5">
   <div class="row">
     <div class="col-12 col-sm-6">
       <form action="./index.php?content=activate_script" method="post">
@@ -18,29 +18,29 @@
           <input name="passwordCheck" type="password" class="form-control" id="inputPasswordCheck" aria-describedby="passwordHelpCheck">
           <small id="passwordHelpCheck" class="form-text text-muted">Ter controle voert u nogmaals uw wachtwoord in...</small>
         </div>
-        <div class = "row">
+        <div class="row">
           <div class="col-4">
             <div class="form-group">
               <label for="inputFirstName">Voornaam:</label>
-              <input name="FirstName" type="text" class="form-control" id="inputFirstName" aria-describedby="firstNameHelp">
+              <input name="firstName" type="text" class="form-control" id="inputFirstName" aria-describedby="firstNameHelp">
             </div>
           </div>
-            <div class="col-4">
-              <div class="form-group">
-                <label for="inputInfix">Tussenvoegsel:</label>
-                <input name="Infix" type="text" class="form-control" id="inputInfix" aria-describedby="InfixHelp">
-              </div>
+          <div class="col-4">
+            <div class="form-group">
+              <label for="inputInfix">Tussenvoegsel:</label>
+              <input name="infix" type="text" class="form-control" id="inputInfix" aria-describedby="InfixHelp">
             </div>
+          </div>
           <div class="col-4">
             <div class="form-group">
               <label for="inputLastName">Achternaam:</label>
-              <input name="LastName" type="text" class="form-control" id="inputLastName" aria-describedby="lastNameHelp">
+              <input name="lastName" type="text" class="form-control" id="inputLastName" aria-describedby="lastNameHelp">
             </div>
           </div>
         </div>
         <div class="form-group">
           <label for="inputPhoneNumber">telefoon nummer:</label>
-          <input name="PhoneNumber" type="phone" class="form-control" id="inputPhoneNumber" aria-describedby="phoneNumberHelp" pattern="06[0-9]{8}" placeholder="0612345678">
+          <input name="phoneNumber" type="tel" class="form-control" id="inputPhoneNumber" aria-describedby="phoneNumberHelp" pattern="06[0-9]{8}" placeholder="0612345678">
         </div>
         <input type="hidden" name="em" value="<?php echo $_GET["em"]; ?>">
         <input type="hidden" name="pwh" value="<?php echo $_GET["pwh"]; ?>">
