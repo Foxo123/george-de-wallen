@@ -1,28 +1,35 @@
 
+<div class="loader" id="loader">
+    <div class="text-loading" id="preloader">
+        <h3><span>George</span> De Wallen</h3>
+    </div>
+</div>
 
-<center style="font-family:fangsong, 'Helvetica Neue', Helvetica, sans-serif;;font-size:75px;">Our Menu!</center>
+<center style=" padding-top:50px; font-family:Apple Chancery;font-size:75px;">Our Menu!</center>
 
 
 <link rel="stylesheet" href="./css/style.css">
 <div class="container">
-  <div class="box" id="momi">
-    <img src="./img/Kadefoto1.jpg">
+  <div class="box" id="momi2">
+  <a href="#menu"><img src="./img/Kadefoto1.jpg"></a>
     <span>Menu</span>
   </div>
-  <div class="box" id="momi">
-    <img src="./img/Specialties1.jpg">
+  <div class="box" id="momi1">
+  <a href="specialties"><img src="./img/Specialties1.jpg"></a>
     <span>Specialties</span>
   </div>
-  <div class="box" id="momi">
+  <div class="box" id="momi3">
     <img src="./img/Health1.jpg">
     <span>Allergy info!</span>
   </div>
 </div>
 
+
+<div class="afstand" style="margin: 0px 125px;">
 <h1> <center style="text-decoration: underline; padding-top: 50px; font-family:Apple Chancery; font-size:50px;">Discover more taste!</center> </h1>
 
 
-<div class="row" style="padding-top: 175px;">
+<div class="row" style="padding-top: 175px;" id="menu">
     <div class="col-6" style="border-right-style: solid;">
         <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Our sublime menu!</center>
 
@@ -69,7 +76,7 @@
 <h1> <center style="text-decoration: underline; padding-top: 50px; font-family:Apple Chancery; font-size:50px;">Specialties!</center> </h1>
 
 
-<div class="row" style="padding-top: 175px;">
+<div class="row" style="padding-top: 150px;">
     <div class="col-6" style="border-right-style: solid;">
         <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Speciale Formaggio!</center>
 
@@ -83,9 +90,10 @@
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">The regular Kapsalon!................€12.95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Crab with Fish rings................€22,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Mr baker eggs with sliced onion................€12,95</center>
-
 </div>
-    <div class="col-6">
+    
+
+<div class="col-6">
         <img src="./img/family2.jpg" class="w-75 h-100" style=" width: 40%;  margin: auto; width: 50%;border: 3px solid black;padding: 10px;">
     </div>
 </div>
@@ -94,6 +102,7 @@
      <img src="./img/family1.jpg" class= "w-100 h-80" style="width: 100%; margin-right: auto; width: 50%;border: 3px solid black;padding: 10px;">
 </div>
     
+
     <div class="col-6" style="padding-top: 50px;">
         <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Our Familia Festiva!	</center>
 		
@@ -106,157 +115,54 @@
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">The regular Kapsalon!................€12.95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Crab with Fish rings................€22,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Mr baker eggs with sliced onion................€12,95</center>
-		
-
-		
     </div>
 </div>
 
 
-
-<!--dit is de review code. er zijn containers en carrousel gebruikt!-->
-
-
-<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-
-<div class="container">
-	<div class="row">
-	</div>
 </div>
-<div class="carousel-reviews broun-block">
-    <div class="container">
-        <div class="row">
-            <div id="carousel-reviews" class="carousel slide" data-ride="carousel">
-            
-                <div class="carousel-inner">
-                    <div class="item active">
-                	    <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-						        <a title="" href="#">Hercules</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel">
-				                <img src="="/>
-								<a title="" href="#">Anna</a>
-								<i>from Glasgow, Scotland</i>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-						        <a title="" href="#">The Purge: Anarchy</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
-					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel">
-				                <img src=""/>
-						        <a title="" href="#">Ella Mentree</a>
-								<i>United States</i>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<a title="" href="#">Planes: Fire & Rescue</a>
-								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
-    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
-								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel">
-								<img src=""/> href="#">Rannynm</a>
-								<i>Indonesia</i>
-							</div>
-						</div>
-                    </div>
-                    <div class="item">
-                        <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-						        <a title="" href="#">Hercules</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img13.png">
-								<a title="" href="#">Anna</a>
-								<i>from Glasgow, Scotland</i>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-						        <a title="" href="#">The Purge: Anarchy</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
-					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img14.png">
-						        <a title="" href="#">Ella Mentree</a>
-								<i>United States</i>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<a title="" href="#">Planes: Fire & Rescue</a>
-								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
-    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
-								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img15.png">
-								<a title="" href="#">Rannynm</a>
-								<i>Indonesia</i>
-							</div>
-						</div>
-                    </div>
-                    <div class="item">
-                        <div class="col-md-4 col-sm-6">
-        				    <div class="block-text rel zmin">
-						        <a title="" href="#">Hercules</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-						        <p>Never before has there been a good film portrayal of ancient Greece's favourite myth. So why would Hollywood start now? This latest attempt at bringing the son of Zeus to the big screen is brought to us by X-Men: The last Stand director Brett Ratner. If the name of the director wasn't enough to dissuade ...</p>
-							    <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-					        </div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img13.png">
-								<a title="" href="#">Anna</a>
-								<i>from Glasgow, Scotland</i>
-							</div>
-						</div>
-            			<div class="col-md-4 col-sm-6 hidden-xs">
-						    <div class="block-text rel zmin">
-						        <a title="" href="#">The Purge: Anarchy</a>
-							    <div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star-empty"></span><span data-value="3" class="glyphicon glyphicon-star-empty"></span><span data-value="4" class="glyphicon glyphicon-star-empty"></span><span data-value="5" class="glyphicon glyphicon-star-empty"></span>  </span></div>
-        						<p>The 2013 movie "The Purge" left a bad taste in all of our mouths as nothing more than a pseudo-slasher with a hamfisted plot, poor pacing, and a desperate attempt at "horror." Upon seeing the first trailer for "The Purge: Anarchy," my first and most immediate thought was "we really don't need another one of these."  </p>
-					            <ins class="ab zmin sprite sprite-i-triangle block"></ins>
-				            </div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img14.png">
-						        <a title="" href="#">Ella Mentree</a>
-								<i>United States</i>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 hidden-sm hidden-xs">
-							<div class="block-text rel zmin">
-								<a title="" href="#">Planes: Fire & Rescue</a>
-								<div class="mark">My rating: <span class="rating-input"><span data-value="0" class="glyphicon glyphicon-star"></span><span data-value="1" class="glyphicon glyphicon-star"></span><span data-value="2" class="glyphicon glyphicon-star"></span><span data-value="3" class="glyphicon glyphicon-star"></span><span data-value="4" class="glyphicon glyphicon-star"></span><span data-value="5" class="glyphicon glyphicon-star"></span>  </span></div>
-    							<p>What a funny and entertaining film! I did not know what to expect, this is the fourth film in this vehicle's universe with the two Cars movies and then the first Planes movie. I was wondering if maybe Disney pushed it a little bit. However, Planes: Fire and Rescue is an entertaining film that is a fantastic sequel in this magical franchise. </p>
-								<ins class="ab zmin sprite sprite-i-triangle block"></ins>
-							</div>
-							<div class="person-text rel">
-								<img alt="" src="http://myinstantcms.ru/images/img15.png">
-								<a title="" href="#">Rannynm</a>
-								<i>Indonesia</i>
-							</div>
-						</div>
-                    </div>                    
-                </div>
-                
-            </div>
-        </div>
-    </div>
+<div style="display:flex; justify-content:center; padding-top: 50px"> 
+	<img src="./img/georgelogo1.jpg" alt="">
+</div>
+
+
+
+<div class="afstand" style="margin: 0px 100px;">
+<div class="jumbotron"  id="jumbo1" style="text-align: center; font-family:Arial; padding-top: 200px;">
+  <h1 class="display-4" >Food info/Allergies!</h1>
+  <p class="lead"></p>
+  <hr class="my-4">
+  <p>Our food products contain: 
+	  gluten,
+	  sugar/salt,
+	  oil,
+	  meat,
+	  bio meat,
+	  milk,
+	  eggs,
+	  and other variaty off products.
+  </p>
+  <p style="text-decoration: underline;"> 
+	  Please if you have any allergies then contact our restaurant BEFORE you reserve and wait for further information!	
+  </p>
+  <a class="btn btn-primary btn-lg"  href="#" role="button">CALL US!</a>
+</div>
+</div>
+
+</div>
+
+<style>
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font: arial;
+}
+</style>
+
+<div class="footer">
+  <p>George Marine de Wallen</p>
 </div>
