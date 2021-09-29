@@ -6,6 +6,7 @@
   font-weight: bolder;
 }
 
+
 .about-item {
   text-align: center;
   padding-top: 25px;
@@ -121,3 +122,15 @@
   color: white;
   background-color: black;
 }
+#booking-form{
+  /*border-left-style: solid;*/
+  border-right: solid;
+  /*border-bottom-style: groove;*/
+  text-align: center;
+  
+}
+
+#header-text{
+  font-size: 20px;
+}
+
