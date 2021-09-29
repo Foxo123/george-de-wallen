@@ -16,16 +16,10 @@
 </head>
 
 <body>
-
-    <div class="container text-center">
-        <!-- col 1 -->
-        <div class="row" id="table">
-        <div class="col-4" id="pic1">
-        <img src="coffee.png" alt="" class="float-left">
-            </div>
-            <style>#pic1 {width:auto;}</style>
-            <div class="col-4">
-            <h2>Contact Us<h2><br>
+    <!-- begin -->
+<div class="grid-container">
+  <div class="grid-item"> <img src="coffee.png" alt="" ></div>
+  <div class="grid-item1"><h2>Contact Us<h2><br>
             <h4>If you want to get in contact with us 
                     you can do so via multiple channels. 
                     See the options listed below.</h4>
@@ -33,21 +27,10 @@
                   Via the phone:<br> +31682057219<br>
                   Via our physical location:<br> </h5>
                   <iframe class="embed-responsive-item" src="//maps.google.com/maps?output=embed&amp;q=Pijlsteeg%2023%2C%20Amsterdam&amp;z=15&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlBpamxzdGVlZyUyMDIzJTJDJTIwQW1zdGVyZGFtJTIyJTJDJTIyem9vbSUyMiUzQTE1JTJDJTIydHlwZUlkJTIyJTNBJTIycm9hZCUyMiUyQyUyMmxhbmclMjIlM0FudWxsJTJDJTIyYXBpS2V5JTIyJTNBbnVsbCUyQyUyMm1hcmtlcnMlMjIlM0ElNUIlNUQlN0Q="></iframe>
-
-            </div>
-             <div class="col-4" >
-                <img src="sandwich.jpg" alt="" class="">
-
-            </div>
-          
-        </div>
-        <!-- col 2 -->
-        <div class="row" id="table">
-        <div class="col-4">
-        <img src="plate.jpg" alt="" class="">
-            </div>
-            <div class="col-4">
-            <h2>Opening hours<h2><br>
+</div>
+  <div class="grid-item">  <img src="sandwich.jpg" alt="" class=""> </div>
+  <div class="grid-item"><img src="plate.jpg" alt="" class=""></div>
+  <div class="grid-item"><h2>Opening hours<h2><br>
             <h4>Pijlsteeg, de Wallen<br>
 Amsterdam, 1012 HH<br>
 georgedewallen@contact.com<br>
@@ -59,15 +42,48 @@ Thursday 9:00 – 23:00<br>
 Friday 9:00 – 23:00<br>
 Saturday 9:00 – 23:00<br>
 Sunday 10:00 - 22:00<br>
-</h3>
-                   <h5> Via the mail:<br> contact@george-de-wallen.nl<br>
-                  Via the phone:<br> +31682057219<br>
-                  Via our physical location:<br> </h5>
-                  <iframe class="embed-responsive-item" src="//maps.google.com/maps?output=embed&amp;q=Pijlsteeg%2023%2C%20Amsterdam&amp;z=15&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlBpamxzdGVlZyUyMDIzJTJDJTIwQW1zdGVyZGFtJTIyJTJDJTIyem9vbSUyMiUzQTE1JTJDJTIydHlwZUlkJTIyJTNBJTIycm9hZCUyMiUyQyUyMmxhbmclMjIlM0FudWxsJTJDJTIyYXBpS2V5JTIyJTNBbnVsbCUyQyUyMm1hcmtlcnMlMjIlM0ElNUIlNUQlN0Q="></iframe>
+</h3></div>
+  <div class="grid-item"> <img src="chef.jpg" alt=""></div>
+</div>
+<style>.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+}
+.grid-item {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+</style>
 
+
+
+
+    <div class="container text-center">
+        <!-- col 1 -->
+        <div class="row" id="table">
+        <div class="col-4" id="pic1">
+       
+            </div>
+           
+            <div class="col-4">
+            
             </div>
              <div class="col-4" >
-                <img src="chef.jpg" alt="" class="float-right">
+              
+            </div>
+          
+        </div>
+        <!-- col 2 -->
+        <div class="row" id="table">
+        <div class="col-4">
+        
+            </div>
+            <div class="col-4">
+            
+                 
+            </div>
+             <div class="col-4" >
+               
 
             </div>
           
