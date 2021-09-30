@@ -6,13 +6,13 @@
   $pwh = sanitize($_POST["pwh"]);
   $password = sanitize($_POST["password"]);
   $passwordCheck = sanitize($_POST["passwordCheck"]);
-  $firstN = sanitize($_POST["LastName"]);
-  $infix = sanitize($_POST["Infix"]); 
-  $lastN = sanitize($_POST["FirstName"]);
-  $phoneN = sanitize($_POS["PhoneNumber"]);
+  $firstN = sanitize($_POST["firstName"]);
+  $infix = sanitize($_POST["infix"]); 
+  $lastN = sanitize($_POST["lastName"]);
+  $phoneN = sanitize($_POST["phoneNumber"]);
 
   
-  if (empty($_POST["password"]) || empty($_POST["passwordCheck"])) {
+  if (empty($_POST["password"]) || empty($_POST["passwordCheck"]) || empty($_POST["firstName"])) {
     header("Location: ./index.php?content=message&alert=password-empty&em=$em&pwh=$pwh");
   } elseif (strcmp($password, $passwordCheck)) {
     header("Location: ./index.php?content=message&alert=nomatch-password&em=$em&pwh=$pwh");
@@ -40,9 +40,12 @@
                          `updatedAt`= CURRENT_TIMESTAMP,
                          `activated` = 1
                   WHERE  `email` = '$em'
-                  AND    `passwd` = '$pwh'";
-    
-          if (mysqli_query($conn, $sql)) {
+                  AND    `passwd` = '$pwh';";
+          
+          $sql .= "INSERT INTO `klant` (`id`,`voornaam`, `tussenvoegsel`, `achternaam`, `email`, `mobiel`,`rol`, `createdAt`, `updatedAt`, `emailVerified`) 
+          VALUES (NULL, '$firstN', '$infix', '$lastN', '$em', '$phoneN','klant', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, '1');";
+        // echo $sql;exit();
+          if (mysqli_multi_query($conn, $sql)) {
             // succes
             header("Location: ./index.php?content=message&alert=update-success");
           } else {

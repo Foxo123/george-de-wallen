@@ -1,4 +1,7 @@
 
+<center style="font-family:fangsong, 'Helvetica Neue', Helvetica, sans-serif;;font-size:75px;">Our Menu!</center>
+
+
 <div class="loader" id="loader">
     <div class="text-loading" id="preloader">
         <h3><span>George</span> De Wallen</h3>
@@ -6,6 +9,7 @@
 </div>
 
 <center style=" padding-top:50px; font-family:Apple Chancery;font-size:75px;">Our Menu!</center>
+
 
 
 <link rel="stylesheet" href="./css/style.css">
@@ -35,10 +39,10 @@
 <h1> <center id="menu" style="text-decoration: underline; padding-top: 50px; font-family:Apple Chancery; font-size:50px;">Discover more taste!</center> </h1>
 
 
+
 <div class="row" style="padding-top: 175px;">
     <div class="col-6" style="border-right-style: solid;">
 		<center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Regulare Menu</center>
-		
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px; padding-top: 25px">Pork chips with regular Chips................€12,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Canadian Salmon with Sliced vegetables................€15,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Chicken sliced Oregano................€21,95</center>
@@ -60,7 +64,6 @@
     
     <div class="col-6" style="padding-top: 50px;">
 		<center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Traditionale!</center>
-		
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px; padding-top: 25px">Pork chips with regular Chips................€12,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Canadian Salmon with Sliced vegetables................€15,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Chicken sliced Oregano................€21,95</center>
@@ -87,8 +90,6 @@
 <div class="row" style="padding-top: 150px;">
     <div class="col-6" style="border-right-style: solid;">
         <center style="font-family:Arial, 'Helvetica Neue', Helvetica, sans-serif;;font-size:50px; border-style: groove;">Speciale Formaggio!</center>
-
-        
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px; padding-top: 25px">Pork chips with regular Chips................€12,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Canadian Salmon with Sliced vegetables................€15,95</center>
 		<center style="font: italic 1.2em Fira Sans, serif; font-size: 25px;">Chicken sliced Oregano................€21,95</center>
@@ -159,15 +160,6 @@
 </div>
 
 
-<style>
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  color: white;
-  text-align: center;
-  font: arial;
-}
-</style>
+
+
+
