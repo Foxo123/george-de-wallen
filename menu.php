@@ -1,7 +1,4 @@
 
-<center style="font-family:fangsong, 'Helvetica Neue', Helvetica, sans-serif;;font-size:75px;">Our Menu!</center>
-
-
 <div class="loader" id="loader">
     <div class="text-loading" id="preloader">
         <h3><span>George</span> De Wallen</h3>
