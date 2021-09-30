@@ -171,7 +171,3 @@
   font: arial;
 }
 </style>
-
-<div class="footer">
-  <p>George Marine de Wallen</p>
-</div>
