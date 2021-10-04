@@ -7,7 +7,6 @@
 }
 
 
-
 .about-item {
   text-align: center;
   padding-top: 25px;
@@ -243,7 +242,7 @@
   margin-top:1em;
 }
 
-h1::before {  
+  h1::before {  
     transform: scaleX(0);
     transform-origin: bottom right;
   }
@@ -289,14 +288,11 @@ h1::before {
       grid-auto-flow: column;
     }
   }
-  
-
-
 
 
 /*dit is de css voor de 1ste hover accordion */ 
 
-.container {
+#containermenu {
   display: flex;
   width: 100%;
   padding: 4% 2%;
