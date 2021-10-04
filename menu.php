@@ -9,7 +9,7 @@
 
 
 
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/addacareerpage.css">
 <div class="container" id="containermenu">
   <div class="box" id="momi2">
   	<img src="./img/Kadefoto1.jpg">
