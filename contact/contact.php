@@ -36,7 +36,7 @@
                         <h5> Via the mail:<br> contact@george-de-wallen.nl<br>
                             Via the phone:<br> +31682057219<br>
                             Via our physical location:<br> </h5>
-                        <iframe class="embed-responsive-item" style="width:30vw;height:40vh; object-fit:cover;"src="//maps.google.com/maps?output=embed&amp;q=Pijlsteeg%2023%2C%20Amsterdam&amp;z=15&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlBpamxzdGVlZyUyMDIzJTJDJTIwQW1zdGVyZGFtJTIyJTJDJTIyem9vbSUyMiUzQTE1JTJDJTIydHlwZUlkJTIyJTNBJTIycm9hZCUyMiUyQyUyMmxhbmclMjIlM0FudWxsJTJDJTIyYXBpS2V5JTIyJTNBbnVsbCUyQyUyMm1hcmtlcnMlMjIlM0ElNUIlNUQlN0Q="></iframe>
+                        <iframe class="embed-responsive-item" style="width:300px;height:400px; object-fit:cover;"src="//maps.google.com/maps?output=embed&amp;q=Pijlsteeg%2023%2C%20Amsterdam&amp;z=15&amp;t=m" data-map="JTdCJTIyYWRkcmVzcyUyMiUzQSUyMlBpamxzdGVlZyUyMDIzJTJDJTIwQW1zdGVyZGFtJTIyJTJDJTIyem9vbSUyMiUzQTE1JTJDJTIydHlwZUlkJTIyJTNBJTIycm9hZCUyMiUyQyUyMmxhbmclMjIlM0FudWxsJTJDJTIyYXBpS2V5JTIyJTNBbnVsbCUyQyUyMm1hcmtlcnMlMjIlM0ElNUIlNUQlN0Q="></iframe>
 
             </div>
             <div class="col-4">
