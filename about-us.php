@@ -49,7 +49,7 @@
         </div>
 
       </div>
-      <div class="col-6" id="test2">
+      <div class="col-6" id="carousel1">
         <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -121,7 +121,7 @@
             <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Samie Senel</h3>
+            <h3 class="name">Sami Senel</h3>
             <h4 class="title">Hoofd Administratie</h4>
           </div>
         </div>
