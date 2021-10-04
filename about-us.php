@@ -121,7 +121,7 @@
             <img class="img-fluid" src="./img/mensen/card.png">
           </div>
           <div class="team-content">
-            <h3 class="name">Samie Senel</h3>
+            <h3 class="name">Sami Senel</h3>
             <h4 class="title">Hoofd Administratie</h4>
           </div>
         </div>
