@@ -20,14 +20,14 @@
             <div class="card-body">
                 <h5 class="card-title">Learn more about us</h5>
                 <p class="card-text">if you want to learn more about our franchise read here</p>
-                <a href="./index.php?content=about-us" class="btn btn-secondary">about us</a>
+                <a href="./index.php?content=about-us" class="btn btn-dark">about us</a>
             </div>
         </div>
     </div>
 </div>
 
 <div class="row">
-    <div class="col-6 " id="booking-form">
+    <div class="col-xs-12 col-6 " id="booking-form">
         <h2>
             Contact us about planning an event:
         </h2>
@@ -66,7 +66,7 @@
                         <input name="Message" type="text" class="form-control" id="inputMessage" aria-describedby="messageHelp" style="height: 125px;">
                     </div>
                 </div>
-                <button type="submit" class="btn btn-secondary btn-lg btn-block">send</button>
+                <button type="submit" class="btn btn-dark btn-lg btn-block">send</button>
             </div>
         </div>
     </div>
@@ -74,8 +74,11 @@
         <img src="./img/dewallen2.jpg" alt="" class="w-75">
     </div>
 </div>
-<div class="row">
-    <div class="col-12" style="text-align: center; padding-top: 50px;">
+<div class="row" style="padding-top: 50px;">
+    <div class="col-6" style="text-align: center; border-right-style: solid;">
+        <img src="./img/dewallen3.jpg" alt="" class="w-75">
+    </div>
+    <div class="col-6" style="text-align: center; padding-top: 50px;">
         <form action="./index.php?content=booking_form_script" method="post">
             <h2>Leave your phone number and we will contact you</h2>
             <div class="form-group">
@@ -83,6 +86,6 @@
                 <input name="PhoneNumber" type="phone" class="form-control" id="inputPhoneNumber" aria-describedby="phoneNumberHelp" pattern="06[0-9]{8}" placeholder="0612345678">
             </div>
         </form>
+        <button type="submit" class="btn btn-dark btn-lg btn-block">send</button>
     </div>
-    <button type="submit" class="btn btn-secondary btn-lg btn-block">send</button>
 </div>
