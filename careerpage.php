@@ -22,46 +22,108 @@
     <h1>Our career page!</h1>
 </head>
 
-<div class="container" id="containercareer2">
-  <div class="card2">
-    <div class="card-header">
-      <img src="./img/career1.jpg" alt="rover" />
+<div class="body" id="body112">
+
+  
+<p style="padding-top: 75px; font-size: 25px;">At our career page you can find more information about our crew and how to become our crew!</p>
+
+<hr>
+  
+<p style="font-size: 25px;">You can also see numerous of reviews of famous people who visited our restaurant and dropped a compliment!</p>
+
+
+<p style="font-size: 25px;">Scroll down for more information</p>
+
+
+<hr>
+
+
+</div>
+
+<div class="divider"></div>
+
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 mx-auto">
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">Amazing foods and delicious desserts! Kanye enjoyed the fish and the personel were very kind! Thanks and see u later!<a href="#" class="text-info">@deliciousss</a>."</p>
+                    <footer class="blockquote-footer pt-3 mt-3 border-top">twitter
+                        <cite title="Source Title">Kim Kardashian</cite>
+                    </footer>
+                </blockquote>
+                <!-- END -->
+            </div>
+            <div class="col-4 mx-auto" style="border-left-style: solid;">
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">Amazing foods and delicious desserts! Kanye enjoyed the fish and the personel were very kind! Thanks and see u later!<a href="#" class="text-info">@deliciousss</a>."</p>
+                    <footer class="blockquote-footer pt-3 mt-3 border-top">twitter
+                        <cite title="Source Title">Kim Kardashian</cite>
+                    </footer>
+                </blockquote>
+                <!-- END -->
+            </div>
+            <div class="col-4 mx-auto" style="border-left-style: solid;">
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">Amazing foods and delicious desserts! Kanye enjoyed the fish and the personel were very kind! Thanks and see u later!<a href="#" class="text-info">@deliciousss</a>."</p>
+                    <footer class="blockquote-footer pt-3 mt-3 border-top">twitter
+                        <cite title="Source Title">Kim Kardashian</cite>
+                    </footer>
+                </blockquote>
+                <!-- END -->
+            </div>
+        </div>
     </div>
-    <div class="card-body1">
-      <span class="tag1 tag-teal1">Kitchen</span>
-      <h4>
-        Mike Dolly's experience!
-      </h4>
-      <p>   
-        In my beginning years in the late 90's, vegan food wasn't that populair but now after a lot of experience and skill i can show u the world of vegan!
-      </p>
-      <div class="user">
-        <div class="user-info">
-          <h5>Mike Dolly</h5>
-          <small>Head-chef
+</section>
+
+<div class="divider"></div>
+
+
+
+<div class="container" style="padding-top: 50px;">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/TMgQMXoglsM/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Chef cook!</h5>
+          <div class="card-text text-black-50">Vegan specialist</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4" style="border-left-style: solid;">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/9UVmlIb0wJU/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Dessert artist!</h5>
+          <div class="card-text text-black-50">Less is more(ingredients)</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4" style="border-left-style: solid;">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/sNut2MqSmds/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Staff member!</h5>
+          <div class="card-text text-black-50">Happy to see you!</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 4 -->
+    <div class="col-xl-3 col-md-6 mb-4" style="border-left-style: solid;">
+      <div class="card border-0 shadow">
+        <img src="https://source.unsplash.com/7u5mwbu7qLg/500x350" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Bartender!</h5>
+          <div class="card-text text-black-50">Drinks with more taste</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="card2">
-    <div class="card-header">
-      <img src="./img/career2.jph.jpg" alt="rover" />
-    </div>
-    <div class="card-body1">
-      <span class="tag1 tag-teal1">Kitchen</span>
-      <h4>
-        Kian Aliters experience!
-      </h4>
-      <p>   
-        In my beginning years in the late 90's, vegan food wasn't that populair but now after a lot of experience and skill i can show u the world of vegan!
-      </p>
-      <div class="user">
-        <div class="user-info">
-          <h5>Kian Aliter</h5>
-          <small>Floor-waiter
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  
+ 

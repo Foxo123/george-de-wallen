@@ -34,7 +34,7 @@
     font-size: 10px; text-align: center; 
 }
 .attribution a { 
-    color: hsl(0, 0%, 43%); 
+    color: hsl(0, 0%, 0%); 
 }
 
 h1:first-of-type {
@@ -134,4 +134,61 @@ h1:first-of-type {
   color: #545d7a;
 }
 
-  
+/* divder css*/
+
+.divider {
+  background: rgb(0, 0, 0) url("styles/images/divider-stars.png") no-repeat center 0;
+  height: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  margin: 10px auto;
+  float: left;
+  top: 50px;
+  }
+
+
+  @import url(https://fonts.googleapis.com/css?family=Montez);
+@import url(https://fonts.googleapis.com/css?family=Jacques+Francois);
+
+#body112 {
+  padding: left;
+  max-width: 500px;
+  margin: 0 auto;
+  font-family: 'arial';
+  color: rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+  font-size: large;
+}
+
+hr {
+  border: 1px solid transparent;
+  height: 1em;
+  width: 15%;
+  position: relative;
+}
+
+hr:before, hr:after {
+  content: ' V ';
+  color: rgb(189, 189, 189);
+  font-family: Montez;
+  position: absolute;
+}
+
+hr:before {
+  left: 0;    
+  text-shadow: -1px 0px rgb(0, 0, 0);
+  -webkit-transform: scaleX(15) scaleY(2) rotate(-90deg);
+   -moz-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  -ms-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  -o-transform: scaleX(15) scaleY(2) rotate(-90deg);
+  transform: scaleX(15) scaleY(2) rotate(-90deg);
+}
+hr:after {
+  right: 0;
+    text-shadow: 1px 0px rgb(0, 0, 0);
+  -webkit-transform: scaleX(15) scaleY(2) rotate(90deg);
+   -moz-transform: scaleX(15) scaleY(2) rotate(90deg);
+  -ms-transform: scaleX(15) scaleY(2) rotate(90deg);
+  -o-transform: scaleX(15) scaleY(2) rotate(90deg);
+  transform: scaleX(15) scaleY(2) rotate(90deg);
+}
