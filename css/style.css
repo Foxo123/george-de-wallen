@@ -133,13 +133,25 @@
 
 #header-text{
   font-size: 20px;
+  text-align: center;
+}
+
+#reservation-img{
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  padding-right:100px;
 }
 
 
+#reservationform{
+  padding-top: 50px;
+  width: 500px;
+}
 
-
-
-
+img{
+  filter:grayscale(100%);
+}
 
 
 /*dit is css voor de loader*/
