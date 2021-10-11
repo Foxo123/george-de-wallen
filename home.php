@@ -44,10 +44,8 @@
   <body data-home-page="Home.html" data-home-page-title="Home" class="u-body">
     <section id="carousel_c9ef" class="u-carousel u-slide u-block-f1df-1" data-u-ride="carousel" data-interval="5000">
       <ol class="u-absolute-hcenter u-carousel-indicators u-block-f1df-2">
-        <li data-u-target="#carousel_c9ef" data-u-slide-to="0" class="u-active u-grey-30"></li>
-        <li data-u-target="#carousel_c9ef" class="u-grey-30" data-u-slide-to="1"></li>
-        <li data-u-target="#carousel_c9ef" class="u-grey-30" data-u-slide-to="2"></li>
-        <li data-u-target="#carousel_c9ef" class="u-grey-30" data-u-slide-to="3"></li>
+       
+        
       </ol>
       <div class="u-carousel-inner" role="listbox">
         <div class="u-active u-align-left u-carousel-item u-clearfix u-image u-shading u-section-1-1" src="" data-image-width="1280" data-image-height="853">
@@ -75,23 +73,15 @@
           </div>
         </div>
       </div>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-icon-circle u-text-palette-1-base u-block-f1df-3" href="#carousel_c9ef" role="button" data-u-slide="prev">
-        <span aria-hidden="true">
-          <svg viewBox="0 0 477.175 477.175">
-            <path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
-                    c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path>
+      
           </svg>
         </span>
-        <span class="sr-only">Previous</span>
+        
       </a>
-      <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-icon-circle u-text-palette-1-base u-block-f1df-4" href="#carousel_c9ef" role="button" data-u-slide="next">
-        <span aria-hidden="true">
-          <svg viewBox="0 0 477.175 477.175">
-            <path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
-                    c-5.3,5.3-5.3,13.8,0,19.1c2.6,2.6,6.1,4,9.5,4c3.4,0,6.9-1.3,9.5-4l225.1-225.1C365.931,242.875,365.931,234.275,360.731,229.075z"></path>
+      
           </svg>
         </span>
-        <span class="sr-only">Next</span>
+        
       </a>
     </section>
 
@@ -108,8 +98,8 @@
                   </div>
                   <div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-30 u-layout-cell-2">
                     <div class="u-container-layout u-valign-middle u-container-layout-2">
-                      <h2 class="u-text u-text-1">Informatie</h2>
-                      <p class="u-text u-text-2"> Bij restaurant George De wallen kun je terecht voor een uitgebreide lunch, een heerlijk diner of een gezellige borrel aan de sfeervolle bar. Het restaurant is gemakkelijk te bereiken en bevindt zich bij Utrecht</p>
+                      <h2 class="u-text u-text-1">Information</h2>
+                      <p class="u-text u-text-2"> At restaurant George De Wallen you can enjoy an extensive lunch, a delicious dinner or a drink at the bar. The restaurant is easy to reach and is located near Utrecht</p>
                       <a href="" class="u-btn u-btn-rectangle u-button-style u-palette-1-base u-btn-1">Over ons</a>
                     </div>
                   </div>
@@ -120,7 +110,7 @@
                   <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-30 u-layout-cell-3">
                     <div class="u-container-layout u-container-layout-3">
                       <h2 class="u-text u-text-3">
-                        <center>Werken bij Resturant George De Wallen?&nbsp;
+                        <center>Working at Resturant George De Wallen?&nbsp;
                       </h2>
                       </center>
                       <p class="u-text u-text-4">
@@ -147,8 +137,8 @@
             <div class="u-layout-row" style="">
               <div class="u-container-style u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
                 <div class="u-container-layout u-container-layout-1">
-                  <h2 class="u-align-center u-text u-text-default u-text-1">Reserveer</h2>
-                  <a href="#" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">Klik hier</a>
+                  <h2 class="u-align-center u-text u-text-default u-text-1">reservate</h2>
+                  <a href="#" class="u-btn u-btn-round u-button-style u-radius-50 u-btn-1">click here</a>
                 </div>
               </div>
               <div class="u-align-center u-container-style u-image u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-image-1" src="" data-image-width="1280" data-image-height="853">
@@ -171,7 +161,7 @@
                   </svg><svg class="u-svg-content" viewBox="0 -1 512 512" id="svg-79ad">
                     <path d="m204.5 458.605469v51.855469l-12.539062-10.128907c-1.9375-1.566406-48.035157-38.992187-94.78125-92.660156-64.484376-74.035156-97.179688-140.492187-97.179688-197.519531v-5.652344c0-112.761719 91.738281-204.5 204.5-204.5s204.5 91.738281 204.5 204.5v5.652344c0 4.789062-.253906 9.652344-.714844 14.574218l-39.992187-36.484374c-8.191407-83.15625-78.519531-148.339844-163.792969-148.339844-90.757812 0-164.597656 73.839844-164.597656 164.597656v5.652344c0 96.367187 124.164062 213.027344 164.597656 248.453125zm122.699219-28.660157h59.851562v-59.851562h-59.851562zm-122.699219-310.238281c46.753906 0 84.792969 38.039063 84.792969 84.792969s-38.039063 84.792969-84.792969 84.792969-84.792969-38.039063-84.792969-84.792969 38.039063-84.792969 84.792969-84.792969zm0 39.902344c-24.753906 0-44.890625 20.136719-44.890625 44.890625 0 24.75 20.136719 44.890625 44.890625 44.890625 24.75 0 44.890625-20.140625 44.890625-44.890625 0-24.753906-20.140625-44.890625-44.890625-44.890625zm280.609375 243.222656-11.21875-10.234375v64.058594c0 29.828125-24.269531 54.09375-54.097656 54.09375h-126.332031c-29.828126 0-54.097657-24.265625-54.097657-54.09375v-64.058594l-11.21875 10.234375-26.890625-29.476562 155.371094-141.746094 155.375 141.746094zm-51.121094-46.636719-77.363281-70.574218-77.359375 70.574218v100.457032c0 7.828125 6.367187 14.195312 14.195313 14.195312h126.332031c7.828125 0 14.195312-6.367187 14.195312-14.195312zm0 0"></path>
                   </svg></span>
-                <h3 class="u-text u-text-1">Locatie</h3>
+                <h3 class="u-text u-text-1">Location</h3>
                 <p class="u-text u-text-2"> Leidsegracht 84<br>1016 CR Amsterdam<br>
                 </p>
               </div>
@@ -210,8 +200,8 @@
                       </g>
                     </g>
                   </svg></span>
-                <h3 class="u-text u-text-5">Openingstijden</h3>
-                <p class="u-text u-text-6"> Maandag: 15:00-00:00<br>Dinsdag: 16:00-00:00<br>Woensdag: 15:00-00:00<br>Donderdag: 16:00-00:00<br>Vrijdag: 15:00-1:00
+                <h3 class="u-text u-text-5">Opening hours</h3>
+                <p class="u-text u-text-6"> Monday: 15:00-00:00<br>Tuesday: 16:00-00:00<br>wednesday: 15:00-00:00<br>Thursday: 16:00-00:00<br>Friday: 15:00-1:00
                 </p>
               </div>
             </div>
