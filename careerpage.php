@@ -19,28 +19,23 @@
 
 <body id="bodycareer">
   <div class="header" id="headercareer">
-    <h1>Our career page!</h1>
+    <h1 style="font-family:Arial, Helvetica, sans-serif; color:black">Our career page!</h1>
 </head>
 
 <div class="body" id="body112">
 
   
-<p style="padding-top: 75px; font-size: 25px;">At our career page you can find more information about our crew and how to become our crew!</p>
-
-<hr>
-  
-<p style="font-size: 25px;">You can also see numerous of reviews of famous people who visited our restaurant and dropped a compliment!</p>
 
 
-<p style="font-size: 25px;">Scroll down for more information</p>
 
-
-<hr>
+<hr style="padding-top: 25px;"> 
 
 
 </div>
 
-<div class="divider"></div>
+
+
+<h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:black">Top reviews!</h1>
 
 <section class="py-5">
     <div class="container">
@@ -81,9 +76,13 @@
 
 <div class="divider"></div>
 
+<div class="">
+  hoi
+</div>
 
 
-<div class="container" style="padding-top: 50px;">
+
+<div class="container" style="padding-top: 75px;">
   <div class="row">
     <!-- Team Member 1 -->
     <div class="col-xl-3 col-md-6 mb-4">

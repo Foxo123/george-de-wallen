@@ -16,7 +16,7 @@
           </ul>
         </div>
       </div>
-      <hr>
+      
     </div>
     <div class="container">
       <div class="row">
