@@ -1,6 +1,11 @@
+p{
+  font-family: 'baskerville-urw', sans-serif;
+}
+
 h1 {
     position: relative;
     font-size: 5rem;
+    font-family: 'Akzidenz grotesk', sans-serif;
   }
   
   html {
