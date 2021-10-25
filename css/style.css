@@ -256,7 +256,6 @@ p{
   margin-top:1em;
 }
 
-
   @media (orientation: landscape) {
     body {
       grid-auto-flow: column;

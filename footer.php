@@ -9,14 +9,14 @@
         <div class="col-xs-6 col-md-3">
       <br> <center><h6 style="color: white ">Quick Links</h6></center>
           <ul class="footer-links">
-            <li><a href="Voorpagina2.0.html">Home</a></li>
-            <li><a href="Informatie.html">Reservate</a></li>
-            <li><a href="formulier.html">About us</a></li>
-            <li><a href="">Our menu</a></li>
+            <li><a href="./" style="color: white ">Home</a></li>
+            <li><a href="./index.php?content=reservation" style="color: white ">Reservation</a></li>
+            <li><a href="./index.php?content=about-us" style="color: white " >About us</a></li>
+            <li><a href="./index.php?content=menu" style="color: white ">Our menu</a></li>
+
           </ul>
         </div>
       </div>
-      <hr>
     </div>
     <div class="container">
       <div class="row">
