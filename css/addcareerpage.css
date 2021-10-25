@@ -192,3 +192,10 @@ hr:after {
   -o-transform: scaleX(15) scaleY(2) rotate(90deg);
   transform: scaleX(15) scaleY(2) rotate(90deg);
 }
+
+
+#p1 {
+  padding: 2em;
+  max-width: 20em;
+  margin: auto;
+}
