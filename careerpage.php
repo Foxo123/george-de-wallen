@@ -14,29 +14,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-
 <body id="bodycareer">
   <div class="header" id="headercareer">
-    <h1 style="font-family:Arial, Helvetica, sans-serif; color:black">Our career page!</h1>
 </head>
 
-<div class="body" id="body112">
-
-  
-
-
-
-<hr style="padding-top: 25px;"> 
-
-
+<div class="body" 
+  id="body112">
 </div>
 
 
 <img src="./img/georgelogo1.jpg" alt="">
 
-<h1 style="padding-top: 75px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:black">Top reviews!</h1>
+<h1 style="padding-top: 50px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color:black">Top reviews!</h1>
 
 <section class="py-5">
     <div class="container">
@@ -46,7 +36,7 @@
                     <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
                     <p class="mb-0 mt-2 font-italic">Killing it here in George restaurant! nice dinner and good foods! I will be back!<a href="#" class="text-info">@deliciousss</a>."</p>
                     <footer class="blockquote-footer pt-3 mt-3 border-top">twitter
-                        <cite title="Source Title">Brad< Pitt</cite>
+                        <cite title="Source Title">Brad Pitt</cite>
                     </footer>
                 </blockquote>
                 <!-- END -->
@@ -121,7 +111,6 @@
           <div class="card-text text-black-50">Happy to see you!</div>
         </div>
       </div>
-      <img src="georgelogo1.jpg" alt="">
     </div>
     <!-- Team Member 4 -->
     <div class="col-xl-3 col-md-6 mb-4" style="border-left-style: solid;">
@@ -135,3 +124,9 @@
     </div>
   </div>
  
+  <div class="container" style="font-size: 50px; font-family:'Times New Roman', Times, serif">
+  <p id="p1">
+   For any other questions... don't hesitate to call us!
+    
+  </p>
+</div>
