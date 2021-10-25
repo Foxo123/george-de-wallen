@@ -7,134 +7,153 @@
   switch($alert) {
     case "no-email" :
       echo '<div class="alert alert-info mt-5 w-50 mx-auto text-center" role="alert">
-              U heeft geen e-mailadres ingevuld, probeer het opnieuw...
+              Please fill in all fields
             </div>';
       header("Refresh: 3; ./index.php?content=register");
     break;
     case "emailexists" :
       echo '<div class="alert alert-warning mt-5 w-50 mx-auto text-center" role="alert">
-              Het door u ingevulde e-mailadres bestaat al, probeer het opnieuw met een ander e-mailadres...
+              This email already exist please try again.
             </div>';
       header("Refresh: 3; ./index.php?content=register");
     break;
     case "register-error" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Er is iets fout gegaan in het registratieproces... Probeer het nogmaals of neem contact op met admin@vegetablejuice.nl
+              Something went wrong while registering, please try again.
             </div>';
       header("Refresh: 3; ./index.php?content=register");
     break;
     case "register-success" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              U bent succesvol geregistreerd. U ontvangt een e-mail van ons met daarin een activatielink.
+              You have been succesfully registerd, you will get an email to activate your account
             </div>';
       header("Refresh: 3; ./index.php?content=login");
     break;
     case "hacker-alert" :
-      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">U heeft geen rechten op deze pagina</div>';
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">U have no rights on this page</div>';
       header("Refresh: 3; ./index.php?content=home");
     break;
     case "password-empty" :
       echo '<div class="alert alert-warning mt-5 w-50 mx-auto text-center" role="alert">
-              U heeft een van beide wachtwoordvelden niet ingevuld. Probeer het opnieuw
+              Please fill in all fields of the form
             </div>';
       header("Refresh: 3; ./index.php?content=activate&id=$id&pwh=$pwh");
     break;
     case "nomatch-password" :
       echo '<div class="alert alert-warning mt-5 w-50 mx-auto text-center" role="alert">
-              Uw ingevulde wachtwoorden zijn niet gelijk, probeer het opnieuw...
+              The passwords didnt match...
             </div>';
       header("Refresh: 3; ./index.php?content=activate&id=$id&pwh=$pwh");
     break;
     case "no-id-pwh-match" :
       echo '<div class="alert alert-warning mt-5 w-50 mx-auto text-center" role="alert">
-              U bent niet geregistreerd in de database, u wordt doorgestuurd naar de registratiepagina
+              You have not been found in the database, please try again
             </div>';
       header("Refresh: 3; ./index.php?content=register");
     break;
     case "update-success" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              U bent succesvol geregistreerd, u wordt doorgestuurd naar de inlogpagina...
+              U have succesfully registerd your account
             </div>';
       header("Refresh: 3; ./index.php?content=login");
     break;
     case "update-error" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Het registratieproces is niet gelukt, kies een nieuw wachtwoord
+              Failed registering please try again
             </div>';
             header("Refresh: 3; ./index.php?content=activate&id=$id&pwh=$pwh");
     break;
     case "already-active" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Uw account is al actief, log in met uw zelfgekozen wachtwoord en emailadres.
+              You have already activated you account
             </div>';
             header("Refresh: 3; ./index.php?content=login");
     break;
     case "no-match-pwh" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Uw activatielinkgegevens zijn niet correct, registreer opnieuw
+             Something went wrong when activating please try registering again
             </div>';
             header("Refresh: 3; ./index.php?content=register");
     break;
     case "loginform-empty" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              U heeft een beide velden niet ingevuld, probeer het opnieuw...
+              Please fill in all fields of the form
             </div>';
             header("Refresh: 3; ./index.php?content=login");
     break;
     case "email-unknown" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Het door u ingevulde e-mailadres is bij ons niet bekend, probeer het opnieuw...
+              The email filled in isnt registerd
             </div>';
             header("Refresh: 3; ./index.php?content=login");
     break;
     case "not-activated" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Uw account is nog niet geactiveerd. Check uw e-mail <span class="badge badge-danger p-2">' . $email . '</span> voor het klikken op de activatielink....
+              Please activate your account go to your email: <span class="badge badge-danger p-2">' . $email . '</span> 
             </div>';
             header("Refresh: 3; ./index.php?content=login");
     break;
     case "no-pw-match" :
       echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
-              Uw ingevulde wachtwoord voor het e-mailadres <span class="badge badge-danger p-2">' . $email . '</span> is niet correct, probeer het opnieuw....
+              Invalid credantials for <span class="badge badge-danger p-2">' . $email . '</span> , try again
             </div>';
             header("Refresh: 3; ./index.php?content=login");
     break;
     case "logout" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              U bent uitgelogd, u wordt doorgestuurd naar de homepage....
+             YOu have been succesfully logged out
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
     case "auth-error" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              U bent niet ingelogd, u wordt doorgestuurd naar de homepage....
+              Please login first, back to homepage....
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
     case "auth-error-user" :
-      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              U heeft geen rechten op deze pagina, u wordt doorgestuurd naar de homepage....
+      echo '<div class="alert alert-secondary mt-5 w-50 mx-auto text-center" role="alert">
+              U have no rights on this page, back to home...
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
     case "phoneNumberPutIn" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              Uw telefoon nummer is succesvol achtergelaten
+              your number has been send
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
     case "Message-send" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              Uw bericht is succesvol verstuurt
+              Message send succesfully
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
     case "message-send-failed" :
-      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-              Uw bericht is helaas niet verzonden, probeer het opnieuw
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              We werent able to send your message, please try again
             </div>';
             header("Refresh: 3; ./index.php?content=bookingform");
     break;
+    case "reservation-empty" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Please fill in all of the information
+            </div>';
+            header("Refresh: 3; ./index.php?content=reservation");
+    break;
+    case "reservation-succes" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Reservation succes
+            </div>';
+            header("Refresh: 3; ./index.php?content=reservation");
+    break;
+    case "reservation-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Reservation procces failed please try again
+            </div>';
+            header("Refresh: 3; ./index.php?content=reservation");
+    break;
+
     default:
       header("Location: ./index.php?content=home");
     break;
