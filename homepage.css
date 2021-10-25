@@ -1,4 +1,10 @@
+h1{
+  font-family: 'Akzidenz grotesk', sans-serif;
+}
 
+p{
+  font-family: 'baskerville-urw', sans-serif;
+}
 
 .fr-clearfix::after {
   clear: both;

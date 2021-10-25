@@ -1,3 +1,11 @@
+h1{
+  font-family: 'Akzidenz grotesk', sans-serif;
+}
+
+p{
+  font-family: 'baskerville-urw', sans-serif;
+}
+
 #footer {
   min-height: 1em;
   background-color: black;

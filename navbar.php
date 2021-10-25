@@ -46,13 +46,13 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         }
       ?> 
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=juices" style="color: white; ">Reservate</a>
+        <a class="nav-link" href="./index.php?content=juices" style="color: white; ">Reservation</a>
       </li>
       <li class="nav-item <?php echo ($active == "sleep") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=sleep"style="color: white; ">Our menu</a>
       </li>
-      <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=smoothies"style="color: white; ">Contact</a>
+      <li class="nav-item <?php echo ($active == "contact") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=contact"style="color: white; ">Contact</a>
       </li>
       <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=smoothies"style="color: white; ">About us </a>  
