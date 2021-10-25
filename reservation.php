@@ -72,4 +72,15 @@
                     </form>
              </div>
         </div>
+        <div class="row" id="important-info-reservation">
+            <div id="info-res-text">
+                <h2>
+                    Important info!
+                </h2>
+                <h3>
+                    when reserving please keep in mind that we have a 15 minute time period when you will have to check in.
+                    If you have any questions please <a href="./index.php?content=contact">contact us</a>
+                </h3>
+             </div>
+        </div>
     </div>
