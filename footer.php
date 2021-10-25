@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6" >
-      <br><center> <h6 style="color: white  ">Welcome to Restureant George De Wallen</h6></center>
+      <br><center> <h6 style="color: white  ">Welcome to Restaurant George De Wallen</h6></center>
           <p class="text-justify" style="color: white ">At restaurant George de Wallen you can enjoy an extensive lunch, a delicious dinner or a cozy drink at the atmospheric bar. The restaurant is easy to reach and is located close to Utrecht.</p>
         </div>
         <div class="col-xs-6 col-md-3">
