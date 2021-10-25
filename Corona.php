@@ -14,7 +14,7 @@
   <body>
   <div class="container" style= "margin-top: 30;">
   <div class="row row-cols-2" style="padding-bottom: 20px; padding-top: 20px;">
-    <div class="col" style= " border-right-style: solid;">>
+    <div class="col" style= " border-right-style: solid;">
     <h2 style="margin-top:60 , border-right-style: solid" class=><center>Our Corona Rules at Resturant George De Wallen.</h2></center>
                       <p class="u-text u-text-4"><center><br>Since the corona crisis happenend we need to follow some rules to stay open. 
                       <br>But this is also more safe to our customers and to our workers.</br>
@@ -57,7 +57,7 @@
   </div>
 </div></div>
     <div class="col"><div class="card" style="width: 18rem; margin-top: 30">
-  <img src="klachten.png" class="card-img-top" alt="...">
+  <img src="./img/klachten.png" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text"> In case of complaints, we ask you to stay at home.</p>
   </div>
