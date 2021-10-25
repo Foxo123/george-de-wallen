@@ -31,7 +31,7 @@
                     </div>
                     <hr>
                     <div id="reservationform">
-                        <select class="form-select" aria-label="table-select" name="table-select" style="width: 500px;">
+                        <select class="form-select" aria-label="table-select" name="table-select" style="width: 500px;" id="reservation-selectors">
                             <option selected>Table selection</option>
                             <option value="T1">T-1</option>
                             <option value="T2">T-2</option>
@@ -56,7 +56,7 @@
                     </div>
                     <hr>
                     <div id="reservationform">
-                        <select class="form-select" aria-label="time-select" name="time-select" style="width: 500px;">
+                        <select class="form-select" aria-label="time-select" name="time-select" style="width: 500px;" id="reservation-selectors">
                             <option selected>time selection</option>
                             <option value="17:30-19:30">17:30-19:30</option>
                             <option value="18:00-20:00">18:00-20:00</option>

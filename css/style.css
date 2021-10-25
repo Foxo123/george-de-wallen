@@ -143,6 +143,11 @@
   padding-right:100px;
 }
 
+#reservation-selectors{
+  border-radius: 5px;
+  height: 35px;
+}
+
 #important-info-reservation{
   padding-top:45px;
 }
