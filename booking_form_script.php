@@ -27,3 +27,4 @@ else{
         header("Location: ./index.php?content=message&alert=message-send-failed");
     }
 }
+?>

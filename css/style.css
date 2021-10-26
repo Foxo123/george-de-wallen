@@ -1,3 +1,11 @@
+h1{
+  font-family: 'Akzidenz grotesk', sans-serif;
+}
+
+p{
+  font-family: 'baskerville-urw', sans-serif;
+}
+
 #footer {
   min-height: 1em;
   background-color: black;
@@ -7,7 +15,6 @@
 }
 
 
-
 .about-item {
   text-align: center;
   padding-top: 25px;
@@ -15,9 +22,10 @@
   padding-right: 10px;
   border-left-style: solid;
   border-right-style: solid;
+  margin-bottom: 25px;
 }
 
-#test2 {
+#carousel1 {
   margin-top: 60px;
   position: relative;
 }
@@ -133,6 +141,43 @@
 
 #header-text{
   font-size: 20px;
+  text-align: center;
+}
+
+#reservation-img{
+  width: 600px;
+  height: 500px;
+  margin: auto;
+  padding-right:100px;
+}
+
+#reservation-selectors{
+  border-radius: 5px;
+  height: 35px;
+}
+
+#important-info-reservation{
+  padding-top:45px;
+}
+
+#info-res-text{
+
+  border-top: solid 3px;
+  padding-top: 10px;
+  padding-bottom:5px;
+  padding-left:5px;
+  padding-right:5px;
+  text-align: center;
+  margin: auto;
+}
+
+#reservationform{
+  padding-top: 50px;
+  width: 500px;
+}
+
+img{
+  filter:grayscale(100%);
 }
 
 
@@ -242,60 +287,16 @@
   margin-top:1em;
 }
 
-h1::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  
-  h1:hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
-  
-  h1::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: hsl(50 50% 0%);
-    z-index: -1;
-    transition: transform 2.3s;
-  }
-  
-  h1 {
-    position: relative;
-    font-size: 5rem;
-  }
-  
-  html {
-    block-size: 100%;
-    inline-size: 100%;
-  }
-  
-  body {
-    min-block-size: 100%;
-    min-inline-size: 100%;
-    margin: 0;
-    box-sizing: border-box;
-    display: grid;
-    place-content: center;
-    font-family: system-ui, sans-serif;
-  }
-  
   @media (orientation: landscape) {
     body {
       grid-auto-flow: column;
     }
   }
-  
-
-
 
 
 /*dit is de css voor de 1ste hover accordion */ 
 
-.container {
+#containermenu {
   display: flex;
   width: 100%;
   padding: 4% 2%;
