@@ -87,7 +87,7 @@
       <div class="carousel-caption d-none d-md-block">  <h4 style="color:white;size:12px;style:bold;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">The best sushi a la carte</h4></div>
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="./img/7.jpg" alt="Sixth slide">
+      <img class="d-block w-100" src="./img/7.jpg" alt="Sixth  slide">
       <div class="carousel-caption d-none d-md-block">  <h4 style="color:white;size:12px;style:bold;text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">Check out our new location!</h4></div>
     </div>
     <div class="carousel-item">
