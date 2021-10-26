@@ -49,7 +49,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         <a class="nav-link" href="./index.php?content=reservation" style="color: white; ">Reservation</a>
       </li>
       <li class="nav-item <?php echo ($active == "sleep") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=sleep"style="color: white; ">Our menu</a>
+        <a class="nav-link" href="./index.php?content=menu"style="color: white; ">Our menu</a>
       </li>
       <li class="nav-item <?php echo ($active == "contact") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=contact"style="color: white; ">Contact</a>
@@ -59,6 +59,12 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       </li>
       <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=bookingform"style="color: white; ">Book event</a>
+      </li>
+      <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=gallery"style="color: white; ">Gallery</a>
+      </li>
+      <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=careerpage"style="color: white; ">Careers</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
