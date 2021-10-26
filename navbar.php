@@ -48,22 +48,22 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "reservation") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=reservation" style="color: white; ">Reservation</a>
       </li>
-      <li class="nav-item <?php echo ($active == "sleep") ? "active" : "" ?>">
+      <li class="nav-item <?php echo ($active == "menu") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=menu"style="color: white; ">Our menu</a>
       </li>
       <li class="nav-item <?php echo ($active == "contact") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=contact"style="color: white; ">Contact</a>
       </li>
-      <li class="nav-item <?php echo ($active == "smoothies") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=smoothies"style="color: white; ">About us </a>  
+      <li class="nav-item <?php echo ($active == "about-us") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=about-us"style="color: white; ">About us </a>  
       </li>
       <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=bookingform"style="color: white; ">Book event</a>
       </li>
-      <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
+      <li class="nav-item <?php echo ($active == "gallery") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=gallery"style="color: white; ">Gallery</a>
       </li>
-      <li class="nav-item <?php echo ($active == "bookingform") ? "active" : "" ?>">
+      <li class="nav-item <?php echo ($active == "careerpage") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=careerpage"style="color: white; ">Careers</a>
       </li>
     </ul>
