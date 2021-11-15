@@ -10,9 +10,9 @@
 
 <body>
 
-    <div class="wrapper">
-        <div class="sidebar">
-            <h2>Sidebar</h2>
+    <div>
+        <div>
+            <h2>controle pannel</h2>
             <ul>
                 <li><a href="./docent-home.php"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="./schedule.php"><i class="fas fa-list"></i>Schedule</a></li>
