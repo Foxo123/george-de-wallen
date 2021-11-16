@@ -44,7 +44,33 @@ table teachers
   </tr>
 </table> -->
 
+<!-- read.php -->
+<?php
+include("./connect_db.php");
 
+$sql = "SELECT * FROM `users`";
+
+$result = mysqli_query($conn, $sql);
+
+$records = "";
+while ($record = mysqli_fetch_assoc($result)) {
+  $records = "";
+while ($record = mysqli_fetch_assoc($result)) {
+  $records .= "<tr>
+              <th scope='row'>" . $record["id"] . "</th>
+              <td> " . $record["firstname"] . "</td>
+              <td>" . $record["infix"] . "</td>
+              <td>" . $record["lastname"] . "</td>
+              <td><a href='./update.php?id=" . $record["id"] ."'>
+             
+              </a></td>
+              
+         
+              </a></td>
+              </tr>";
+
+}
+?>
 
 <!-- crud opdracht -->
 <!doctype html>
