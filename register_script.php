@@ -14,6 +14,31 @@
     if (mysqli_num_rows($result)) {
       header("Location: ./index.php?content=message&alert=emailexists");
     } else {
+
+      $userrole = determine_userrole($email);
+
+      switch ($userrole){
+        case 'klant':
+          $activationpage = "activate";
+        break;
+        case 'begeleider':
+          $activationpage = "activate";
+        break;
+        case 'eigenaar':
+          $activationpage = "activate";
+        break;
+        case 'docent' :
+          $activationpage = "activate";
+        break;
+        case 'student':
+          $activationpage = "activate_student";
+        break;
+        default:
+         $activationpage = "something_went_wrong";
+        break;
+      }
+
+
       // De functie mk_password_hash_from_microtime() maakt een password hash,
       // haalt de tijd en datum op op basis van de php-functie microtime() 
       // en geeft dit terug in $array
@@ -23,11 +48,13 @@
       $sql = "INSERT INTO `password` (`email`,
                                       `passwd`,
                                       `createdAt`,
-                                      `updatedAt`)
+                                      `updatedAt`,
+                                      `rol`)
               VALUES                 ('$email',
                                       '{$array["password_hash"]}',
                                       CURRENT_TIMESTAMP,
-                                      CURRENT_TIMESTAMP)";
+                                      CURRENT_TIMESTAMP,
+                                      '$userrole')";
       // echo $sql;exit();
       if (mysqli_query($conn, $sql)) {
 
