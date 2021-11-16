@@ -12,7 +12,7 @@
 
     <div>
         <div>
-            <h2>controle pannel</h2>
+            <h2>control panel</h2>
             <ul>
                 <li><a href="./docent-home.php"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="./schedule.php"><i class="fas fa-list"></i>Schedule</a></li>
