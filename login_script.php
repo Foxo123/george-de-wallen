@@ -48,8 +48,9 @@ if (empty($email) || empty($password)) {
         case 'admin':
           header("Location: ./index.php?content=a-home");
           break;
-        case 'moderator':
-          header("Location: ./index.php?content=m-home");
+        case 'begeleider':
+          header("Location: ./begeleider/b-home.php");
+          $_SESSION["name"] = explode('@',$email)[1];
           break;
         default:
           header("Location: ./index.php?content=home");
