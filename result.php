@@ -32,30 +32,34 @@
                     <table class="table">
                         <thead>
                             <tr>
-                                <th scope="col">#</th>
+                                <th scope="col">Student Number</th>
                                 <th scope="col">First</th>
+                                <th scope="col">prefix</th>
                                 <th scope="col">Last</th>
-                                <th scope="col">Handle</th>
+                                <th scope="col">Grade</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row">1</th>
+                                <th scope="row">423423</th>
                                 <td>Mark</td>
+                                <td></td>
                                 <td>Otto</td>
-                                <td>@mdo</td>
+                                <td>8</td>
                             </tr>
                             <tr>
-                                <th scope="row">2</th>
+                                <th scope="row">567567</th>
                                 <td>Jacob</td>
+                                <td></td>
                                 <td>Thornton</td>
-                                <td>@fat</td>
+                                <td>5.5</td>
                             </tr>
                             <tr>
-                                <th scope="row">3</th>
+                                <th scope="row">3453454</th>
                                 <td>Larry</td>
+                                <td></td>
                                 <td>the Bird</td>
-                                <td>@twitter</td>
+                                <td>3</td>
                             </tr>
                         </tbody>
                     </table>
