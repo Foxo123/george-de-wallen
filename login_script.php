@@ -52,6 +52,9 @@ if (empty($email) || empty($password)) {
         case 'begeleider':
           header("Location: ./index.php?content=b-home");
           break;
+        case 'begeleider':
+          header("Location: ./begeleider/b-home.php");
+          $_SESSION["name"] = explode('@',$email)[1];
         case 'klant':
           header("Location: ./index.php?content=k-home");
           break;
