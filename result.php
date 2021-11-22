@@ -1,3 +1,36 @@
+<?php
+include("./connect_db.php");
+
+$sql = 'SELECT * FROM `cijfers`';
+
+$result = mysqli_query($conn, $sql);
+
+$records = "";
+$table = "";
+
+if (mysqli_num_rows($result) > 0) {
+    while ($record = mysqli_fetch_assoc($result)) {
+        $records .= "<tr>
+            <th scope='row'>" . $record["studentnummer"] . "</th>
+            <td> " . $record["studentnaam"] . " </td>
+            <td> " . $record["cijfer"] . " </td>
+            <td> " . $record["beschrijving"] . " </td>
+            </tr>  ";
+    }
+    $table = '<tr>
+    <th scope="col">Student Number</th>
+    <th scope="col">Name</th>
+    <th scope="col">Grade</th>
+    <th scope="col">Description</th>
+    </tr>';
+} else {
+    $records .= '<tr><div class="alert alert-primary" role="alert">
+    There are no results yet.
+  </div></tr>';
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -31,36 +64,14 @@
                 <div class="wrapper">
                     <table class="table">
                         <thead>
-                            <tr>
-                                <th scope="col">Student Number</th>
-                                <th scope="col">First</th>
-                                <th scope="col">prefix</th>
-                                <th scope="col">Last</th>
-                                <th scope="col">Grade</th>
-                            </tr>
+                            <?php
+                                echo $table
+                            ?> 
                         </thead>
                         <tbody>
-                            <tr>
-                                <th scope="row">423423</th>
-                                <td>Mark</td>
-                                <td></td>
-                                <td>Otto</td>
-                                <td>8</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">567567</th>
-                                <td>Jacob</td>
-                                <td></td>
-                                <td>Thornton</td>
-                                <td>5.5</td>
-                            </tr>
-                            <tr>
-                                <th scope="row">3453454</th>
-                                <td>Larry</td>
-                                <td></td>
-                                <td>the Bird</td>
-                                <td>3</td>
-                            </tr>
+                            <?php
+                                echo $records
+                            ?>       
                         </tbody>
                     </table>
                 </div>
