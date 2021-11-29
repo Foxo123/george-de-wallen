@@ -1,30 +1,83 @@
+<?php
+include("./connect_db.php");
+
+$sql = 'SELECT * FROM `cijfers`';
+
+$result = mysqli_query($conn, $sql);
+
+$records = "";
+$table = "";
+
+if (mysqli_num_rows($result) > 0) {
+    while ($record = mysqli_fetch_assoc($result)) {
+        $records .= "<tr>
+            <th scope='row'>" . $record["studentnummer"] . "</th>
+            <td> " . $record["studentnaam"] . " </td>
+            <td> " . $record["cijfer"] . " </td>
+            <td> " . $record["beschrijving"] . " </td>
+            </tr>  ";
+    }
+    $table = '<tr>
+    <th scope="col">Student Number</th>
+    <th scope="col">Name</th>
+    <th scope="col">Grade</th>
+    <th scope="col">Description</th>
+    </tr>';
+} else {
+    $records .= '<tr><div class="alert alert-primary" role="alert">
+    There are no results yet.
+  </div></tr>';
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>home</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
 </head>
 
 <body>
 
-<div class="wrapper">
-    <div class="sidebar">
-        <ul>
-            <?php
-            include("./side-navbar-docent.php");
-            ?>
-        </ul>
-    </div>
-    <div class="main_content">
-        <div class="header">Welcome!! Have a nice day.</div>
-        <div class="info">
-            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
-            <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A sed nobis ut exercitationem atque accusamus sit natus officiis totam blanditiis at eum nemo, nulla et quae eius culpa eveniet voluptatibus repellat illum tenetur, facilis porro. Quae fuga odio perferendis itaque alias sint, beatae non maiores magnam ad, veniam tenetur atque ea exercitationem earum eveniet totam ipsam magni tempora aliquid ullam possimus? Tempora nobis facere porro, praesentium magnam provident accusamus temporibus! Repellendus harum veritatis itaque molestias repudiandae ea corporis maiores non obcaecati libero, unde ipsum consequuntur aut consectetur culpa magni omnis vero odio suscipit vitae dolor quod dignissimos perferendis eos? Consequuntur!</div>
+    <div class="wrapper">
+        <div class="sidebar">
+            <ul>
+                <?php
+                include("./side-navbar-docent.php");
+                ?>
+            </ul>
+        </div>
+        <div class="main_content">
+            <div class="header">Welcome!! Have a nice day.</div>
+            <div class="info">
+                <div class="wrapper">
+                    <table class="table">
+                        <thead>
+                            <?php
+                                echo $table
+                            ?> 
+                        </thead>
+                        <tbody>
+                            <?php
+                                echo $records
+                            ?>       
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </div>
-</div>
 
 </body>
 
