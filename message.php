@@ -101,7 +101,7 @@
     break;
     case "logout" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-             YOu have been succesfully logged out
+             You have been succesfully logged out
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
@@ -158,6 +158,18 @@
               You are on the wrong activation page, please try again
             </div>';
             header("Refresh: 3; ./index.php?content=login");
+    break;
+    case "rooster-update-succes" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Succesfully put into the schedule!
+            </div>';
+            header("Refresh: 3; ./begeleider/b-weekplanner.php");
+    break;
+    case "rooster-update-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              failed to  put into the schedule!
+            </div>';
+            header("Refresh: 3; ./begeleider/b-weekplanner.php");
     break;
     default:
       header("Location: ./index.php?content=home");

@@ -1,7 +1,8 @@
 <?php
-var_dump($_POST);
 include("./connect_db.php");
 include("./functions.php");
+
+session_destroy();
 
 $email = sanitize($_POST["email"]);
 $password = sanitize($_POST["password"]);
@@ -11,7 +12,7 @@ if (empty($email) || empty($password)) {
   header("Location: ./index.php?content=message&alert=loginform-empty");
 } else {
 
-  $sql = "SELECT * FROM `register` WHERE `email` = '$email'";
+  $sql = "SELECT * FROM `password` WHERE `email` = '$email'";
 
   $result = mysqli_query($conn, $sql);
 
@@ -29,17 +30,19 @@ if (empty($email) || empty($password)) {
     if (!$record["activated"]) {
       // Not activated
       header("Location: ./index.php?content=message&alert=not-activated&email=$email");
-    } elseif (!password_verify($password, $record["password"])) {
+    } elseif (!password_verify($password, $record["passwd"])) {
       // No password match
       header("Location: ./index.php?content=message&alert=no-pw-match&email=$email");
     } else {
       // password matched
-     
-      $_SESSION["email"] = $record["email"];
-      $_SESSION["password"] = $record["passwd"];
+      
+      session_start();
+
+      $_SESSION["em"] = $record["email"];
+      $_SESSION["passwd"] = $record["passwd"];
       $_SESSION["userrole"] = $record["rol"];
 
-      switch ($record["userrole"]) {
+      switch ($record["rol"]) {
         case 'docent':
           header("Location: ./index.php?content=d-home");
           break;
@@ -50,11 +53,8 @@ if (empty($email) || empty($password)) {
           header("Location: ./index.php?content=s-home");
           break;
         case 'begeleider':
-          header("Location: ./index.php?content=b-home");
+          header("Location: ./begeleider/b-home.php?name=". explode("@", $email)[0]);
           break;
-        case 'begeleider':
-          header("Location: ./begeleider/b-home.php");
-          $_SESSION["name"] = explode('@',$email)[1];
         case 'klant':
           header("Location: ./index.php?content=k-home");
           break;
