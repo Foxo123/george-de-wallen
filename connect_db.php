@@ -5,5 +5,5 @@
   define("DBNAME", "georgemboutrecht");
 
   $conn = mysqli_connect(SERVERNAME, USERNAME, PASSWORD, DBNAME);
-
+  $sql = "SELECT * FROM `student`";
 ?>
