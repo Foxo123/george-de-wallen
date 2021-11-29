@@ -1,14 +1,22 @@
 <?php
 
+var_dump($_POST);
 
-$firstname = $_POST["cijfer"];
-
-$id = $_POST["id"];
-
-$sql = "UPDATE `student` SET `cijfer` = '$firstname' WHERE `id` = $id;";
+include("../functions.php");
+include("../connect_db.php");
 
 
-mysqli_query($conn, $sql);
+$studentnr = ($_POST["studentnr"]);
+$cijfer = sanitize($_POST["cijfer"]);
 
-header("Location: ./people-list.php")
+$sql = "UPDATE `student` SET `cijfer` = '$cijfer' WHERE `studentnr` = $studentnr;";
+
+
+if(mysqli_query($conn, $sql)){
+        header("Location: ../index.php?content=message&alert=rating-succes");
+}
+else{
+        header("Location: ../index.php?content=message&alert=rating-failed");
+}
+
 ?>
