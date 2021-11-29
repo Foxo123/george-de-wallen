@@ -4,6 +4,7 @@
 }
 #container-begeleider{
     padding-left: 50px;
+    padding-top: 15px;
 }
 thead{
     background-color: darkblue;
@@ -16,10 +17,16 @@ h3{
     border: grey solid 2px;
 }
 
-.jumbotron{
+#jumbotron-home{
     background-image: url("../img/george3.jpg");
     background-position: center;    
 }
+
+#jumbotron-weekplanner{
+    background-image: url("../img/dewallen3.jpg");
+    background-position: center;
+}
+
 
 h1{
     color: white;

@@ -1,6 +1,15 @@
-<?php include("../functions.php");is_authorized(['begeleider', 'eigenaar']); include("./side-navbar.php"); include("../connect_db.php");
+<?php
+session_start();
+include("../functions.php");
+is_authorized(['begeleider', 'eigenaar']);
+include("./side-navbar.php"); 
+include("../connect_db.php");
 
-//$sql = "SELECT * FROM `begeleidersrooster` WHERE `Begeleider` =  '$_SESSION["name"]'  ;";
+//set name from url if its not already
+if(!empty($_GET["name"])){
+    $_SESSION["name"] = $_GET["name"];
+}
+
 
 $sql = 'SELECT * FROM `begeleidersrooster` WHERE `Begeleider` =  "' . $_SESSION["name"] . '";';
 
@@ -16,11 +25,11 @@ if(mysqli_num_rows($result) > 0){
             <td> " . explode(",", $record["Date"])[0] . "</td>
             <td> " . explode(",", $record["Date"])[1] . "</td>
             </tr>  ";
-    }
+    } 
     $table = '<th scope="col">lesson</th>
     <th scope="col">Date</th>
     <th scope="col">Time</th>';
-}else{
+}else {
     $records .= '<tr><div class="alert alert-primary" role="alert">
     There are no planned lessons yet please <a href="./" class="alert-link">plan a lesson</a>.
   </div></tr>';
@@ -47,7 +56,7 @@ if(mysqli_num_rows($result) > 0){
 
 <body>
     <div class="container" id="container-begeleider">
-        <div class="jumbotron jumbotron-fluid">
+        <div class="jumbotron jumbotron-fluid" id="jumbotron-home">
             <div class="container">
                 <h1 class="display-4">Welcome Begeleider!</h1>
             </div>
