@@ -153,7 +153,6 @@
             </div>';
             header("Refresh: 3; ./index.php?content=reservation");
     break;
-
     case "rating-succes" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
               Succesfully altered the rating.
@@ -166,7 +165,12 @@
             </div>';
             header("Refresh: 3; ./list/people-list.php");
     break;
-
+    case "wrongactivationpage" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              You are on the wrong activation page, please try again
+            </div>';
+            header("Refresh: 3; ./index.php?content=login");
+    break;
     default:
       header("Location: ./index.php?content=home");
     break;
