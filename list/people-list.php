@@ -43,31 +43,31 @@ table teachers
     <td>33</td>
   </tr>
 </table> -->
-
+<link rel="stylesheet" href="./list.css">
 <!-- read.php -->
 <?php
-include("./connect_db.php");
+include("../connect_db.php");
 
-$sql = "SELECT * FROM `users`";
-
+$sql = "SELECT * FROM `student`";
+$sqlid = "SELECT `studentnr` FROM `student`";
+$studentid = mysqli_query($conn,$sqlid);
 $result = mysqli_query($conn, $sql);
 
-$records = "";
-while ($record = mysqli_fetch_assoc($result)) {
+$recordid = "";
   $records = "";
 while ($record = mysqli_fetch_assoc($result)) {
   $records .= "<tr>
-              <th scope='row'>" . $record["id"] . "</th>
-              <td> " . $record["firstname"] . "</td>
-              <td>" . $record["infix"] . "</td>
-              <td>" . $record["lastname"] . "</td>
-              <td><a href='./update.php?id=" . $record["id"] ."'>
-             
-              </a></td>
+              <th scope='row'>" . $record["studentnr"] . "</th>
+              <td> " . $record["voornaam"] . "</td>
+              <td>" . $record["achternaam"] . "</td>
+              <td>" . $record["email"] . "</td>
               
          
               </a></td>
               </tr>";
+            //  while ($recordid = mysqli_fetch_assoc($studentid)){
+              
+            //  }
 
 }
 ?>
@@ -95,23 +95,20 @@ while ($record = mysqli_fetch_assoc($result)) {
  <table class="table">
   <thead>
     <tr>
-      <th scope="col">klas/th>
+      <th scope="col">studentnr</th>
       <th scope="col">voornaam</th>
       <th scope="col">achternaam</th>
-      <th scope="col">cijfer</th>
+      <th scope="col">email</th>
       <th scope="col"></th>
       <th scope="col"></th>
     </tr>
     <tr>
-        <td>A</td>
-        <td>Sami</td>
-        <td>Senel</td>
-        <td>10</td>
-        
+        <?php echo $records; ?>
     </tr>
   </thead>
-
-
+<?php
+  include("./people-list-update.php");
+?>
   <table class="table">
   <h1 class="text-center">Klas A Leraren</h1>
   <thead>
@@ -147,3 +144,4 @@ while ($record = mysqli_fetch_assoc($result)) {
     
   </body>
 </html>
+
