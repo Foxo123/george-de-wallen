@@ -14,6 +14,7 @@ $sql = "UPDATE `student` SET `cijfer` = '$cijfer' WHERE `studentnr` = $studentnr
 
 if(mysqli_query($conn, $sql)){
         header("Location: ../index.php?content=message&alert=rating-succes");
+        header("Location: ./people-list.php");
 }
 else{
         header("Location: ../index.php?content=message&alert=rating-failed");
