@@ -36,7 +36,7 @@ if(mysqli_num_rows($result) > 0){
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./navbar.css">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
-    <title>Hello, world!</title>
+    
   </head>
   <body>
   <!-- side bar -->
