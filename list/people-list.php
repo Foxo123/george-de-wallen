@@ -61,6 +61,7 @@ while ($record = mysqli_fetch_assoc($result)) {
               <td> " . $record["voornaam"] . "</td>
               <td>" . $record["achternaam"] . "</td>
               <td>" . $record["email"] . "</td>
+              <td>" . $record["cijfer"] . "</td>
               <td>
               <a href='./update.php?studentnr=" . $record['studentnr'] . "'>
               Give rating
@@ -103,6 +104,7 @@ while ($record = mysqli_fetch_assoc($result)) {
           <th scope="col">voornaam</th>
           <th scope="col">achternaam</th>
           <th scope="col">email</th>
+          <th scope="col">cijfer</th>
           <th scope="col"></th>
           <th scope="col"></th>
         </tr>
