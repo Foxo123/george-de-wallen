@@ -27,12 +27,52 @@
                  "time"          => $time_formated);
   }
 
+  function determine_userrole($email){
+
+    //E-mail word opgesplits in een array. Voor en na het @-teken
+    $chop_email = explode("@", strtolower($email));
+
+    
+    if(!strcmp("mboutrecht.nl", $chop_email[1])) {
+      $userrole = "docent";
+    } else if(!strcmp("student.mboutrecht.nl", $chop_email[1])){
+      $userrole = "student";
+    } else if(!strcmp("georgemarina@georgemarina.nl", $email)) {
+      $userrole = "eigenaar";
+    } else if(!strcmp("georgemarina.nl", $chop_email[1])) {
+      $userrole = "begeleider";
+    } else{
+      $userrole = "klant";
+    }
+    return $userrole;
+  }
+
+  //kijk of de gebruiker op de pagina mag zijn
+  function check_userrole($email, $userroles){
+    global $conn;
+
+    $sql = "SELECT * FROM `password` WHERE `email` = '$email'";
+    $result = mysqli_query($conn, $sql);
+
+    if(mysqli_num_rows($result)){
+      $db_userrole = mysqli_fetch_assoc($result);
+      if(in_array($db_userrole["rol"], $userroles)) {
+        return true;
+      }else {
+        return false;
+      }
+    } else{
+      return false;
+    }
+
+  }
+
 
   function is_authorized($userroles) {
     if (!isset($_SESSION["id"])) {
-      return header("Location: ./index.php?content=message&alert=auth-error");
+      return header("Location: ../index.php?content=message&alert=auth-error");
     } elseif ( !in_array($_SESSION["userrole"], $userroles)) {
-      return header("Location: ./index.php?content=message&alert=auth-error-user");
+      return header("Location: ../index.php?content=message&alert=auth-error-user");
     } else {
       return true;
     }
