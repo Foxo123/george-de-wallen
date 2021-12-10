@@ -10,31 +10,41 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <?php
-        if (isset($_SESSION["id"])) {
+        if (isset($_SESSION["em"])) {
           switch ($_SESSION["userrole"]) {
-            case 'admin':
-              echo '<li class="nav-item '; echo (in_array($active, ["a-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=a-home"style="color: white; ">home <span class="sr-only">(current)</span></a>
+            case 'docent':
+              echo '<li class="nav-item '; echo (in_array($active, ["d-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=a-home"style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'eigenaar':
+              echo '<li class="nav-item '; echo (in_array($active, ["e-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=r-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'student':
+              echo '<li class="nav-item '; echo (in_array($active, ["s-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=c-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'begeleider':
+              echo '<li class="nav-item '; echo (in_array($active, ["b-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'klant':
+              echo '<li class="nav-item '; echo (in_array($active, ["k-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'root':
               echo '<li class="nav-item '; echo (in_array($active, ["r-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=r-home" style="color: white; ">home <span class="sr-only">(current)</span></a>
-                    </li>';
-            break;
-            case 'customer':
-              echo '<li class="nav-item '; echo (in_array($active, ["c-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=c-home" style="color: white; ">home <span class="sr-only">(current)</span></a>
-                    </li>';
-            break;
-            case 'moderator':
-              echo '<li class="nav-item '; echo (in_array($active, ["m-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             default:
               echo '<li class="nav-item '; echo (in_array($active, ["home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=home" style="color: white; ">home <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="./index.php?content=home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
 
