@@ -1,6 +1,6 @@
 <?php
 include("./connect_db.php");
-
+include("./authorized-docent.php");
 $sql = 'SELECT * FROM `begeleidersrooster`';
 
 $result = mysqli_query($conn, $sql);

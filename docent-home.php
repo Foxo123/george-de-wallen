@@ -1,17 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <title>home</title>
 </head>
 
 <body>
-
 <div class="wrapper">
     <div class="sidebar">
         <ul>
             <?php
+            include("./authorized-docent.php");
+
             include("./side-navbar-docent.php");
             ?>
         </ul>

@@ -8,6 +8,7 @@ $result = mysqli_query($conn, $sql);
 $records = "";
 $table = "";
 #records
+include("./authorized-student.php");
 if(mysqli_num_rows($result) > 0){
     while ($record = mysqli_fetch_assoc($result)) {
         $records .= "<tr>

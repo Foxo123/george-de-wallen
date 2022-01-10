@@ -13,6 +13,7 @@
         <ul>
             <?php
             include("./side-navbar-docent.php");
+            include("./authorized-docent.php");
             ?>
         </ul>
     </div>
