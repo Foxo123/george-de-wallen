@@ -14,32 +14,22 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           switch ($_SESSION["userrole"]) {
             case 'docent':
               echo '<li class="nav-item '; echo (in_array($active, ["d-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=a-home"style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="http://www.george-de-wallen/docent-home"style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'eigenaar':
               echo '<li class="nav-item '; echo (in_array($active, ["e-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=r-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="http://www.george-de-wallen/eigenaar/owner-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'student':
               echo '<li class="nav-item '; echo (in_array($active, ["s-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=c-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="http://www.george-de-wallen/student.php" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             case 'begeleider':
               echo '<li class="nav-item '; echo (in_array($active, ["b-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
-                    </li>';
-            break;
-            case 'klant':
-              echo '<li class="nav-item '; echo (in_array($active, ["k-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
-                    </li>';
-            break;
-            case 'root':
-              echo '<li class="nav-item '; echo (in_array($active, ["r-home", ""])) ? "active" : ""; echo '">
-                      <a class="nav-link" href="./index.php?content=m-home" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="http://www.george-de-wallen/begeleider/b-home.php" style="color: white; ">contole pannel <span class="sr-only">(current)</span></a>
                     </li>';
             break;
             default:
