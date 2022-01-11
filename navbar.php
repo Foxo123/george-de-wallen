@@ -10,7 +10,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <?php
-        if (isset($_SESSION["id"])) {
+        if (isset($_SESSION["em"])) {
           switch ($_SESSION["userrole"]) {
             case 'admin':
               echo '<li class="nav-item '; echo (in_array($active, ["a-home", ""])) ? "active" : ""; echo '">
