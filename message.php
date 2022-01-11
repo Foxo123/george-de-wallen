@@ -183,6 +183,37 @@
             </div>';
             header("Refresh: 3; ./begeleider/b-weekplanner.php");
     break;
+    case "not-filled-in" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              please fill in the email and message
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-send" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              message send succefully
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Message failed to send please try again
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-deleted":
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Message deleted succesfully
+            </div>';
+            header("Refresh: 3; ./message/received-messages");
+    break;
+    case "message-deleted-failed":
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Message could not be deleted please try again..
+            </div>';
+            header("Refresh: 3; ./message/received-messages.php");
+    break;
+
     default:
       header("Location: ./index.php?content=home");
     break;
