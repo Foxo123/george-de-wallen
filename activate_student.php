@@ -11,21 +11,20 @@ include("./functions.php");
 
 $email = sanitize($_GET["em"]);
 
-$sql = "SELECT * FROM `medewerker`, `password` 
-        WHERE `password`.`rol` = 'docent'
-        AND `medewerker`.`email` = `password`.`email`;";
+$sql = "SELECT * FROM `medewerker`
+        WHERE `email` LIKE '%@mboutrecht.nl';";
 $sql .= "SELECT * FROM `lespakket`";
 
 if(mysqli_multi_query($conn,$sql)) {
-
     $records = "";
     $lespakket = "";
+    
 
     do{
         if($result = mysqli_store_result($conn)){
             while ($record = mysqli_fetch_assoc($result)) {
-                if(isset($record["afkorting"])) {
-                    $records .= "<option value='" . $record['afkorting'] . "'>" . "</option>";
+                if(isset($record["voornaam"])) {
+                    $records .= "<option value='" . $record['voornaam'] . "'>" . $record["voornaam"] . "</option>";
                 } elseif (isset($record["lespakket"])) {
                     $lespakket .= "<option value='" . $record['lespakket'] . "'>" . $record['lespakket'] . "</option>";
                 }
