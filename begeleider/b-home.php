@@ -6,8 +6,8 @@ include("./side-navbar.php");
 include("../connect_db.php");
 
 //set name from url if its not already
-if(!empty($_GET["name"])){
-    $_SESSION["name"] = $_GET["name"];
+if(empty($_SESSION["name"])){
+    $_SESSION["name"] = explode("@", $_SESSION["em"])[0];
 }
 
 
