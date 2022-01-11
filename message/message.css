@@ -1,0 +1,39 @@
+.container{
+    padding-top: 10px;
+}
+.display-4{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}
+#received-messages{
+    border-left: groove 2px black;
+}
+#jumbotron-message{
+    background-image: url(../img/peopleonphone.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+#jumbotron-received-messages{
+    height: 80%;
+    background-image: url(../img/received-message.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    border-radius: 25px;
+}
+#jumbotron-received{
+    background-image: url(../img/family1.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+#message-card{
+    border-radius: 25px;
+}
+#message-row{
+    padding-top: 5px;
+}
+
