@@ -1,6 +1,8 @@
 <?php
 ##connecting met database
 include("./connect_db.php");
+
+include("./authorized-student.php");
 $sql = 'SELECT * FROM `begeleidersrooster` LIMIT 3;';
 
 ##dit is de functie die de query naar de database stuurt
@@ -8,7 +10,6 @@ $result = mysqli_query($conn, $sql);
 $records = "";
 $table = "";
 #records
-include("./authorized-student.php");
 if(mysqli_num_rows($result) > 0){
     while ($record = mysqli_fetch_assoc($result)) {
         $records .= "<tr>
