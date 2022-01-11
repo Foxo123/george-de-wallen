@@ -1,7 +1,11 @@
+<?php
+include("./authorized-docent.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    
     <meta charset="UTF-8">
     <title>home</title>
 
@@ -14,7 +18,6 @@
 </head>
 
 <body>
-
     <div class="wrapper">
         <div class="sidebar">
             <ul>

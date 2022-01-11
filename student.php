@@ -1,6 +1,8 @@
 <?php
 ##connecting met database
 include("./connect_db.php");
+
+include("./authorized-student.php");
 $sql = 'SELECT * FROM `begeleidersrooster` LIMIT 3;';
 
 ##dit is de functie die de query naar de database stuurt

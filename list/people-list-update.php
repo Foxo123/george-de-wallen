@@ -1,7 +1,6 @@
 <?php
 // $id =$_GET["id"];
-
-
+include("../authorized-begelijder-eigenaar.php");
 
 
 $sql = "SELECT * FROM `password` WHERE `rol` =  'student'";

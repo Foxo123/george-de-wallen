@@ -1,3 +1,6 @@
+<?php 
+ include("./authorized-docent.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
