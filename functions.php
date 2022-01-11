@@ -77,4 +77,21 @@
       return true;
     }
   }
+
+  function determine_navbar($userrole){
+    switch($_SESSION["userrole"]){
+      case "begeleider":
+          return "../begeleider/side-navbar.php";
+          break;
+      case "eigenaar":
+          return "../eigenaar/navbareigenaar.php";
+          break;
+      case "docent":
+          return "../side-navbar-docent.php";
+          break;
+      case "student":
+          return "../side-navbar-student.php";
+          break;   
+      }
+  }
 ?>
