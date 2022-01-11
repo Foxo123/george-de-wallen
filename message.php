@@ -109,7 +109,7 @@
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
               Please login first, back to homepage....
             </div>';
-            header("Refresh: 3; ./index.php?content=home");
+            header("Refresh: 3; ./index.php?content=login");
     break;
     case "auth-error-user" :
       echo '<div class="alert alert-secondary mt-5 w-50 mx-auto text-center" role="alert">

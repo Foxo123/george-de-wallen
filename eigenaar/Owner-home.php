@@ -1,5 +1,5 @@
 <?php include("./navbareigenaar.php"); include("../connect_db.php");
-
+include("authorized-begeleider-eigenaar.php");
 
 $sql = "SELECT * FROM `begeleidersrooster`";
     
