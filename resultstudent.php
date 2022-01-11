@@ -35,7 +35,7 @@ if (mysqli_num_rows($result) > 0) {
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
     <title>home</title>
 
     <!-- Required meta tags -->
@@ -45,22 +45,17 @@ if (mysqli_num_rows($result) > 0) {
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-
 </head>
 
 <body>
-<!-- button -->
-<div class = "row">
-<div class = "col-12">
- <a href="./addresult.php" type= "button" class="btn btn-danger btn-lg btn-block"> Nieuwe record toevoegen</a>
-</div>
-</div>
-<!-- side navbar -->
+
+<!-- side bar -->
+
     <div class="wrapper">
         <div class="sidebar">
             <ul>
                 <?php
-                include("./side-navbar-docent.php");
+                include("./side-navbar-student.php");
                 ?>
             </ul>
         </div>
