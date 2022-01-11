@@ -8,7 +8,7 @@ if (!(isset($_GET["content"]) && isset($_GET["em"]) && isset($_GET["pwh"]))) {
 
 include("./connect_db.php");
 include("./functions.php");
-include("./authorized-student.php");
+
 $email = sanitize($_GET["em"]);
 
 $sql = "SELECT * FROM `medewerker`, `password` 

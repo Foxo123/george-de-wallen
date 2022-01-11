@@ -1,3 +1,6 @@
+<?php 
+ include("./authorized-docent.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +16,6 @@
         <ul>
             <?php
             include("./side-navbar-docent.php");
-            include("./authorized-docent.php");
             ?>
         </ul>
     </div>
