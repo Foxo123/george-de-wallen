@@ -21,7 +21,7 @@
       <h1>'. $array["date"] . ' - ' . $array["time"] .'</h1>
       <h2>Beste Gebruiker,</h2>
       <p>U heeft zich onlangs geregistreerd voor de site www.backend.com</p>
-      <p>Klik <a href="http://www.project1.com/index.php?content='. $activationpage . '&em=' . $email . '&pwh=' . $array["password_hash"] . '">hier</a> voor het activeren en wijzigen van het wachtwoord van uw account</p>
+      <p>Klik <a href="http://www.george-de-wallen/index.php?content='. $activationpage . '&em=' . $email . '&pwh=' . $array["password_hash"] . '">hier</a> voor het activeren en wijzigen van het wachtwoord van uw account</p>
       <p>Bedankt voor het registreren</p>
       <p>Met vriendelijke groet,</p>
       <p>A. de Ruijter</p>

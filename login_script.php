@@ -44,22 +44,22 @@ if (empty($email) || empty($password)) {
 
       switch ($record["rol"]) {
         case 'docent':
-          header("Location: ./docent-home.php");
+          header("Location: ./index.php?content=home");
           break;
         case 'eigenaar':
-          header("Location: ./eigenaar/Owner-home.php");
+          header("Location: ./index.php?content=home");
           break;
         case 'student':
-          header("Location: ./student.php");
+          header("Location: ./index.php?content=home");
           break;
         case 'begeleider':
           header("Location: ./begeleider/b-home.php?name=". explode("@", $email)[0]);
           break;
         case 'klant':
-          header("Location: ./index.php?content=k-home");
+          header("Location: ./index.php?content=home");
           break;
         case 'root':
-          header("Location: ./index.php?content=r-home");
+          header("Location: ./index.php?content=home");
           break;
         default:
           header("Location: ./index.php?content=home");
