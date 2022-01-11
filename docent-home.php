@@ -1,4 +1,6 @@
-
+<?php
+include("./authorized-docent.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,7 +15,7 @@
     <div class="sidebar">
         <ul>
             <?php
-            include("./authorized-docent.php");
+            
 
             include("./side-navbar-docent.php");
             ?>
