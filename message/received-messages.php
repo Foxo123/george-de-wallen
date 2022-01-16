@@ -23,6 +23,11 @@ while ($record = mysqli_fetch_assoc($result)) {
             </div>';
 
 }
+if(empty($records)){
+  $records .= '<tr><div class="alert alert-primary" role="alert">
+  There are no received messages.
+</div></tr>';
+}
 
 
 ?>
@@ -43,12 +48,12 @@ while ($record = mysqli_fetch_assoc($result)) {
 </head>
 
 <body>
-  <div class="container" id="container-received">
+  <div class="container" id="containers">
     <div class="row">
       <div class="col-12">
         <div class="jumbotron jumbotron-fluid" id="jumbotron-received">
-          <div class="container">
-            <h1 class="display-4">Received messages</h1>
+          <div class="container" id="containers">
+            <h1 class="display-4" id="display-4">Received messages</h1>
           </div>
         </div>
       <?php 

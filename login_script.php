@@ -53,7 +53,7 @@ if (empty($email) || empty($password)) {
           header("Location: ./index.php?content=home");
           break;
         case 'begeleider':
-          header("Location: ./begeleider/b-home.php");
+          header("Location: ./index.php?content=home");
           break;
         case 'klant':
           header("Location: ./index.php?content=home");

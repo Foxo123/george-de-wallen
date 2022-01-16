@@ -1,3 +1,4 @@
+<?php $link = determine_link_prefix("./index.php")?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,13 +11,15 @@
 
 <body>
 
-    <div>
-        <div>
-            <h2>SIDEBAR</h2>
+<div class="wrapper">
+        <div class="sidebar">
+            <h2>Control Panel</h2>
             <ul>
-                <li><a href="./student.php"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="<?php echo $link ?>student.php"><i class="fas fa-home"></i>Home</a></li>
                 <li><a href="./studentcalender.php"><i class="fas fa-list"></i>Schedule</a></li>
                 <li><a href="./resultstudent.php"><i class="fas fa-chart-bar"></i>Results</a></li>
+                <li><a href="./message/messagehome.php"><i class="fas fa-envelope"></i>message</a></li>
+                <li><a href="<?php echo $link ?>index.php?content=logout"><i class="fas fa-times-circle"></i>log out</a></li>
             </ul>
         </div>
     </div>

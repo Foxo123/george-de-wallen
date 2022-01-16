@@ -24,12 +24,12 @@ include(determine_navbar($_SESSION['userrole']));
 </head>
 
 <body>
-    <div class="container" id="container-home">
+    <div class="container" id="containers">
         <div class="row">
             <div class="col-12">
                 <div class="jumbotron jumbotron-fluid" id="jumbotron-message">
-                    <div class="container">
-                        <h1 class="display-4">Messages</h1>
+                    <div class="container" id="containers">
+                        <h1 class="display-4" id="display-4">Messages</h1>
                     </div>
                 </div>
             </div>
@@ -55,8 +55,8 @@ include(determine_navbar($_SESSION['userrole']));
             </div>
             <div class="col-6" id="received-messages">
                 <div class="jumbotron jumbotron-fluid container-fluid" id="jumbotron-received-messages">
-                    <div class="container">
-                        <h1 class="display-4"><a href="./received-messages.php">Received messages</a></h1>
+                    <div class="container" id="containers">
+                        <h1 class="display-4" id="display-4"><a href="./received-messages.php">Received messages</a></h1>
                     </div>
                 </div>
             </div>

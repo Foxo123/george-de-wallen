@@ -94,4 +94,13 @@
           break;   
       }
   }
+
+  function determine_link_prefix($file_exist){
+    if(file_exists($file_exist)){
+      return "./";
+    }
+    else{
+      return "../";
+    }
+  }
 ?>
