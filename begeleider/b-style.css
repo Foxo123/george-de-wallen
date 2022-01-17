@@ -1,0 +1,35 @@
+#begeleider-table{
+    border-top: 2px groove;
+    padding-top: 25px;
+}
+#container-begeleider{
+    padding-left: 50px;
+    padding-top: 15px;
+}
+thead{
+    background-color: darkblue;
+}
+tbody{
+    background-color: black;
+}
+
+h3{
+    border: grey solid 2px;
+}
+
+#jumbotron-home{
+    background-image: url("../img/george3.jpg");
+    background-position: center;    
+}
+
+#jumbotron-weekplanner{
+    background-image: url("../img/dewallen3.jpg");
+    background-position: center;
+}
+
+
+h1{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-align: center;
+}

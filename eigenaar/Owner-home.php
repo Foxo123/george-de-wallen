@@ -1,6 +1,10 @@
-<?php include("./navbareigenaar.php");
-include("../connect_db.php");
 
+<?php include("./navbareigenaar.php"); include("../connect_db.php");
+include("../functions.php");
+
+session_start();
+
+is_authorized(["eigenaar"]);
 
 $sql = "SELECT * FROM `begeleidersrooster`";
 

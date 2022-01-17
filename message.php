@@ -101,7 +101,7 @@
     break;
     case "logout" :
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
-             YOu have been succesfully logged out
+             You have been succesfully logged out
             </div>';
             header("Refresh: 3; ./index.php?content=home");
     break;
@@ -109,7 +109,7 @@
       echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
               Please login first, back to homepage....
             </div>';
-            header("Refresh: 3; ./index.php?content=home");
+            header("Refresh: 3; ./index.php?content=login");
     break;
     case "auth-error-user" :
       echo '<div class="alert alert-secondary mt-5 w-50 mx-auto text-center" role="alert">
@@ -152,6 +152,66 @@
               Reservation procces failed please try again
             </div>';
             header("Refresh: 3; ./index.php?content=reservation");
+    break;
+    case "rating-succes" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Succesfully altered the rating.
+            </div>';
+            header("Refresh: 3; ./list/people-list.php");
+    break;
+    case "rating-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+             Failed to alter the rating.
+            </div>';
+            header("Refresh: 3; ./list/people-list.php");
+    break;
+    case "wrongactivationpage" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              You are on the wrong activation page, please try again
+            </div>';
+            header("Refresh: 3; ./index.php?content=login");
+    break;
+    case "rooster-update-succes" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Succesfully put into the schedule!
+            </div>';
+            header("Refresh: 3; ./begeleider/b-weekplanner.php");
+    break;
+    case "rooster-update-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              failed to  put into the schedule!
+            </div>';
+            header("Refresh: 3; ./begeleider/b-weekplanner.php");
+    break;
+    case "not-filled-in" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              please fill in the email and message
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-send" :
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              message send succefully
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-failed" :
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Message failed to send please try again
+            </div>';
+            header("Refresh: 3; ./message/messagehome.php");
+    break;
+    case "message-deleted":
+      echo '<div class="alert alert-success mt-5 w-50 mx-auto text-center" role="alert">
+              Message deleted succesfully
+            </div>';
+            header("Refresh: 3; ./message/received-messages");
+    break;
+    case "message-deleted-failed":
+      echo '<div class="alert alert-danger mt-5 w-50 mx-auto text-center" role="alert">
+              Message could not be deleted please try again..
+            </div>';
+            header("Refresh: 3; ./message/received-messages.php");
     break;
 
     default:
