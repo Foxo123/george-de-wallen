@@ -96,10 +96,14 @@ class Message
                 $result2 = mysqli_query($conn, $sql2);
 
                 if ($result2) {
-                    while ($record2 = mysqli_fetch_assoc($result2)) {
-                        //if found add the name combined to an array and the email to another array
-                        array_push($this->targetNames, $record2["voornaam"] . " " . $record2["tussenvoegsel"] . " " . $record2["achternaam"]);
-                        array_push($this->targetEmails, $record2["email"]);
+                    $record2 = mysqli_fetch_assoc($result2);
+                    if(empty($record2["voornaam"]) || empty($record2["achternaam"])){
+                        array_push($this->debugmessage, "found record but no name");
+                    }
+                    else{
+                    //if found add the name combined to an array and the email to another array                    
+                    array_push($this->targetNames, $record2["voornaam"] . " " . $record2["tussenvoegsel"] . " " . $record2["achternaam"]);
+                    array_push($this->targetEmails, $record2["email"]);
                     }
                 } else {
                     // log that there were no students found
@@ -110,9 +114,13 @@ class Message
                 $result2 = mysqli_query($conn, $sql2);
 
                 if ($result2) {
-                    while ($record2 = mysqli_fetch_assoc($result2)) {
-                        array_push($this->targetNames, $record2["voornaam"] . " " . $record2["tussenvoegsel"] . " " . $record2["achternaam"]);
-                        array_push($this->targetEmails, $record2["email"]);
+                    $record2 = mysqli_fetch_assoc($result2);
+                    if(empty($record2["voornaam"]) || empty($record2["achternaam"])){
+                        array_push($this->debugmessage, "found record but no name");
+                    }
+                    else{
+                    array_push($this->targetNames, $record2["voornaam"] . " " . $record2["tussenvoegsel"] . " " . $record2["achternaam"]);
+                    array_push($this->targetEmails, $record2["email"]);
                     }
                 } else {
                     //log that there are no mederwerkes found
