@@ -3,7 +3,6 @@
 <!-- read.php -->
 <?php
 include("../connect_db.php");
-include("../authorized-begelijder-eigenaar.php");
 include("../begeleider/side-navbar.php");
 $sql = "SELECT * FROM `student`";
 $sqlid = "SELECT `studentnr` FROM `student`";
